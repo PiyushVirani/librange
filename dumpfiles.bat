@@ -6,7 +6,7 @@ rem Self-contained filedumper with hard-coded directories.
 rem Run this script from the project root.
 
 rem === Show header ===
-echo Here is my entire codebase for the HinLIBS project:
+echo Here is my entire codebase for the project:
 echo.
 echo ```
 echo | tree /f
