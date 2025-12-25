@@ -5,11 +5,21 @@ setlocal enabledelayedexpansion
 rem Self-contained filedumper with hard-coded directories.
 rem Run this script from the project root.
 
-rem === Show header ===
+rem === Show header (Excluding node_modules) ===
 echo Here is my entire codebase for the project:
 echo.
 echo ```
-echo | tree /f
+
+rem Temporarily hide node_modules so tree ignores it
+if exist "node_modules" attrib +h "node_modules"
+if exist ".git" attrib +h ".git"
+
+tree /f
+
+rem Remove the hidden attribute to return to normal
+if exist "node_modules" attrib -h "node_modules"
+if exist ".git" attrib -h ".git"
+
 echo ```
 echo.
 
