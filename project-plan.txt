@@ -44,16 +44,16 @@ Modules
 
 
 What the app does (tight scope)
-User pastes a call number → system determines the range → UI highlights that range on a MacOdrum map and shows a “go here” location.
+User pastes a call number -> system determines the range -> UI highlights that range on a MacOdrum map and shows a "go here" location.
 ________________
 
 
-Suggested modules (fills your “Modules: To be done”)
+Suggested modules (fills your "Modules: To be done")
 1) UI Module (React)
 Goal: Take input, show result, render the map highlight.
 * CallNumberForm
    * textbox + submit
-   * basic validation (“empty”, weird characters)
+   * basic validation ("empty", weird characters)
 * ResultPanel
    * displays interpreted call number, computed range, floor/section, notes
 * MapView
@@ -78,7 +78,7 @@ Create a utility like:
 What it should do (minimum viable):
 * normalize spacing/case
 * split into parts (letters, number, cutter, year, etc.)
-* produce a sortable “key” form (even if it’s rough at first)
+* produce a sortable "key" form (even if it's rough at first)
 You can start simple (string normalization + lexical compare), then improve later if you find edge cases.
 ________________
 
@@ -114,20 +114,20 @@ Goal: Store and load the call-number-to-range mapping.
 Start with:
 * ranges.json checked into the repo
 Later upgrades:
-* editable admin sheet → exported JSON
-* small backend, but your requirements don’t need one
+* editable admin sheet -> exported JSON
+* small backend, but your requirements don't need one
 ________________
 
 
 6) Docs + Quality Module
-Matches your “well documented” requirement.
+Matches your "well documented" requirement.
 * README: setup, run, how ranges are represented, how to add/edit ranges
 * comments in parsing + lookup code (those are the tricky parts)
-* short “Assumptions & Limitations” section (call numbers can be messy)
+* short "Assumptions & Limitations" section (call numbers can be messy)
 ________________
 
 
-End-to-end flow (maps directly to your “Sequence of Events”)
+End-to-end flow (maps directly to your "Sequence of Events")
 1. User submits call number
 2. parseCallNumber() normalizes it
 3. findRange() returns a RangeMatch
@@ -143,9 +143,9 @@ MVP (fast, demo-ready)
 * small ranges.json with maybe 10–30 ranges
 * SVG map with those 10–30 clickable/highlightable regions
 * highlight + text result
-“Nice-to-have” (if time)
-* auto-suggest / examples (“Try: QA76.73.J38 …”)
-* “No match” fallback: closest range suggestions
+"Nice-to-have" (if time)
+* auto-suggest / examples ("Try: QA76.73.J38 …")
+* "No match" fallback: closest range suggestions
 * mobile-friendly layout
 * clickable map legend
 ________________
