@@ -1,0 +1,160 @@
+LibRange plan:
+
+
+Description
+
+A web application* that reduces the time (by x%**) it takes to find books and items in the MacOdrum Library.
+
+*: a final version of this would most probably be a web-app, initial prototypes may NOT be web based
+
+**: the exact percentage improvement would be calculated and updated
+
+Requirements
+
+
+Functional requirements
+1. The system must allow users to paste the call number into a textbox to view the range number
+2. The user must be able to view the location of a particular book on a map of MacOdrum library based on the range number
+
+Non-functional requirements
+1. No authentication required
+2. Must be available on web via a user interface
+3. Must be developed using React.js
+4. Should be well documented (readme, comments, etc.)
+	
+
+Modules
+
+
+What the app does (tight scope)
+User pastes a call number → system determines the range → UI highlights that range on a MacOdrum map and shows a “go here” location.
+________________
+
+
+Suggested modules (fills your “Modules: To be done”)
+1) UI Module (React)
+Goal: Take input, show result, render the map highlight.
+* CallNumberForm
+   * textbox + submit
+   * basic validation (“empty”, weird characters)
+* ResultPanel
+   * displays interpreted call number, computed range, floor/section, notes
+* MapView
+   * displays library map image/SVG
+   * highlights the computed range area
+* AppShell
+   * layout + state management glue
+State shape idea:
+callNumberInput: string
+parsedCallNumber: ParsedCallNumber | null
+matchResult: RangeMatch | null
+error: string | null
+
+
+________________
+
+
+2) Call Number Parsing Module
+Goal: Convert a pasted call number into something comparable.
+Create a utility like:
+* parseCallNumber(raw: string) -> ParsedCallNumber
+What it should do (minimum viable):
+* normalize spacing/case
+* split into parts (letters, number, cutter, year, etc.)
+* produce a sortable “key” form (even if it’s rough at first)
+You can start simple (string normalization + lexical compare), then improve later if you find edge cases.
+________________
+
+
+3) Range Lookup Module
+Goal: Given a parsed call number, find the range record.
+* findRange(parsed: ParsedCallNumber, ranges: RangeRecord[]) -> RangeMatch | null
+RangeRecord example:
+id, startCall, endCall, floor, sectionName, mapRegionId, notes
+
+
+Lookup approach:
+* keep ranges sorted by start key
+* do a binary search, or just linear scan if dataset is small (fine for a prototype)
+________________
+
+
+4) Map Highlighting Module
+Goal: Highlight the shelf region on the map.
+Two practical options:
+1. SVG map (best)
+   * each range is a <path id="RANGE_A1">...
+   * highlight by applying a CSS class to the matching mapRegionId
+2. PNG/JPG map with overlay boxes (fastest)
+   * store rectangles/polygons for each range region
+   * draw overlay with absolute-positioned divs or canvas
+For your React requirement and simplicity, SVG is usually the cleanest.
+________________
+
+
+5) Data Module (Ranges dataset)
+Goal: Store and load the call-number-to-range mapping.
+Start with:
+* ranges.json checked into the repo
+Later upgrades:
+* editable admin sheet → exported JSON
+* small backend, but your requirements don’t need one
+________________
+
+
+6) Docs + Quality Module
+Matches your “well documented” requirement.
+* README: setup, run, how ranges are represented, how to add/edit ranges
+* comments in parsing + lookup code (those are the tricky parts)
+* short “Assumptions & Limitations” section (call numbers can be messy)
+________________
+
+
+End-to-end flow (maps directly to your “Sequence of Events”)
+1. User submits call number
+2. parseCallNumber() normalizes it
+3. findRange() returns a RangeMatch
+4. UI updates:
+   * ResultPanel shows floor/section/range
+   * MapView highlights mapRegionId
+________________
+
+
+Deliverables you can realistically build as a student project
+MVP (fast, demo-ready)
+* textbox input
+* small ranges.json with maybe 10–30 ranges
+* SVG map with those 10–30 clickable/highlightable regions
+* highlight + text result
+“Nice-to-have” (if time)
+* auto-suggest / examples (“Try: QA76.73.J38 …”)
+* “No match” fallback: closest range suggestions
+* mobile-friendly layout
+* clickable map legend
+________________
+
+
+Quick folder structure (React)
+src/
+  components/
+    CallNumberForm.tsx
+    ResultPanel.tsx
+    MapView.tsx
+  data/
+    ranges.json
+  lib/
+    parseCallNumber.ts
+    findRange.ts
+    callNumberKey.ts
+  types/
+    RangeRecord.ts
+    ParsedCallNumber.ts
+    RangeMatch.ts
+  App.tsx
+	
+
+Sequence of Events
+1. The user enters the call number of a book into the form, and submits it
+2. The system processes the call number and finds the corresponding range number
+3. The system sends the range number to the UI
+4. The UI updates the map with the desired range highlighted
