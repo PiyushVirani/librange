@@ -6,8 +6,8 @@ export interface ParsedCallNumber {
     // The Number that follows the first letter(s)
     classNumber: number;
     //The Cutters (Parts of the Call Number that follow the First Letter(s) and Number and are optional)
-    cutter1: string;
-    cutter2: string;
+    cutter1?: string;
+    cutter2?: string;
     // Year, Version, and Copy 
     year?: number;
     other?: string;
