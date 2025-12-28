@@ -21,7 +21,7 @@ function App() {
     <CallNumberForm onSubmit={handleSearch} />
 
     <hr />
-
+    {/*Understand HTML/JSX here*/}
     <h3>Current Search: {currentSearch} </h3>
     {parsedData && (
       <div style={{ background: 'f0f0f0f0', padding: '10px', borderRadius: '5px' }}>
