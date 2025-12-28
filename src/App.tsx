@@ -2,7 +2,7 @@ import {useState} from 'react';
 import CallNumberForm from './components/CallNumberForm';
 
 function App() {
-  const [currentSearch, setCurrentSearch] = useState{''};
+  const [currentSearch, setCurrentSearch] = useState('');
 
   const handleSearch = (term: string) => {
     setCurrentSearch(term);
