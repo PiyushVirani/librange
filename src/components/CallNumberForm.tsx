@@ -1,13 +1,17 @@
 import { useState} from "react";
 
-export default function CallNumberForm() {
+interface CallNumberFormProps {
+    onSubmit: (callNumber: string) => void;
+}
+
+export default function CallNumberForm({onSubmit }: CallNumberFormProps) {
     
     const [userInput, setUserInput] = useState('');
 
     const handleSubmit = (e:React.FormEvent) => {
         e.preventDefault();
-        alert(`You Sent ${userInput}`);
-        console.log(userInput);
+        
+        onSubmit(userInput);
     }
     return (
     <form onSubmit={handleSubmit}>
