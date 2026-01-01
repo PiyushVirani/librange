@@ -1,0 +1,331 @@
+/* src/App.css */
+
+/* ---- Theme tokens (Carleton-inspired, but unique) ---- */
+:root {
+  --carleton-red: rgb(233, 28, 36);
+  --carleton-charcoal: #333333;
+
+  --bg: #fafafa;
+  --card: #ffffff;
+  --muted: #666666;
+  --border: rgba(0, 0, 0, 0.10);
+
+  --shadow: 0 12px 30px rgba(0, 0, 0, 0.10);
+  --radius: 16px;
+
+  --focus: rgba(233, 28, 36, 0.30);
+}
+
+/* ---- Global reset-ish ---- */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  color: var(--carleton-charcoal);
+  background: var(--bg);
+
+  /* subtle, unique background texture using Carleton red */
+  background-image:
+    radial-gradient(900px 500px at 10% 0%, rgba(233, 28, 36, 0.10), transparent 60%),
+    radial-gradient(800px 500px at 90% 10%, rgba(233, 28, 36, 0.08), transparent 55%),
+    linear-gradient(135deg, rgba(51, 51, 51, 0.03), rgba(51, 51, 51, 0.00));
+  background-attachment: fixed;
+}
+
+/* ---- Layout ---- */
+.app {
+  min-height: 100%;
+  padding: 20px 16px 40px;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  padding: 18px 16px 16px;
+  margin-bottom: 14px;
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, rgba(233, 28, 36, 0.12), rgba(51, 51, 51, 0.04));
+  border: 1px solid var(--border);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+  overflow: hidden;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  right: -60px;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle at center, rgba(233, 28, 36, 0.22), transparent 60%);
+  transform: rotate(15deg);
+}
+
+.brandRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brandMark {
+  width: 14px;
+  height: 44px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, var(--carleton-red), rgba(233, 28, 36, 0.55));
+  box-shadow: 0 10px 24px rgba(233, 28, 36, 0.28);
+  flex: 0 0 auto;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(22px, 4.5vw, 34px);
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  margin: 6px 0 0;
+  color: var(--muted);
+  line-height: 1.35;
+  font-size: 14px;
+}
+
+/* ---- Cards ---- */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 16px;
+}
+
+.stack {
+  display: grid;
+  gap: 14px;
+}
+
+/* ---- Form ---- */
+.formGrid {
+  display: grid;
+  gap: 10px;
+}
+
+.labelRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.label {
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.hint {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.inputRow {
+  display: grid;
+  gap: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,0.16);
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--carleton-charcoal);
+  font-size: 16px;
+  outline: none;
+  transition: box-shadow 160ms ease, border-color 160ms ease, transform 160ms ease;
+}
+
+.input:focus {
+  border-color: rgba(233, 28, 36, 0.65);
+  box-shadow: 0 0 0 4px var(--focus);
+}
+
+.input[aria-invalid="true"] {
+  border-color: rgba(233, 28, 36, 0.85);
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.button {
+  appearance: none;
+  border: 1px solid rgba(233, 28, 36, 0.55);
+  background: linear-gradient(180deg, rgba(233, 28, 36, 1), rgba(233, 28, 36, 0.85));
+  color: white;
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: transform 120ms ease, box-shadow 120ms ease, filter 120ms ease, opacity 120ms ease;
+  box-shadow: 0 10px 22px rgba(233, 28, 36, 0.22);
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.02);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+.button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.buttonSecondary {
+  appearance: none;
+  border: 1px solid rgba(0,0,0,0.16);
+  background: white;
+  color: var(--carleton-charcoal);
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 120ms ease, box-shadow 120ms ease, filter 120ms ease;
+}
+
+.buttonSecondary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.10);
+}
+
+.formError {
+  margin: 0;
+  color: rgb(160, 0, 0);
+  font-weight: 700;
+  line-height: 1.35;
+  font-size: 13px;
+}
+
+/* ---- Result panel ---- */
+.resultHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.resultTitle {
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 12px;
+  border: 1px solid var(--border);
+  background: rgba(0,0,0,0.03);
+}
+
+.badgeDot {
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.30);
+}
+
+.resultBody {
+  display: grid;
+  gap: 10px;
+}
+
+.kvGrid {
+  display: grid;
+  gap: 8px;
+}
+
+.kv {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: rgba(0,0,0,0.02);
+}
+
+.k {
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.v {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.resultCard--success {
+  border-color: rgba(0, 150, 80, 0.25);
+}
+
+.resultCard--warning {
+  border-color: rgba(200, 120, 0, 0.28);
+}
+
+.resultCard--error {
+  border-color: rgba(233, 28, 36, 0.35);
+}
+
+.badge--success .badgeDot { background: rgba(0, 150, 80, 0.85); }
+.badge--warning .badgeDot { background: rgba(200, 120, 0, 0.95); }
+.badge--error .badgeDot { background: rgba(233, 28, 36, 0.95); }
+.badge--idle .badgeDot { background: rgba(0,0,0,0.30); }
+
+/* ---- Responsive ---- */
+@media (min-width: 680px) {
+  .inputRow {
+    grid-template-columns: 1fr auto;
+    align-items: center;
+  }
+
+  .actions {
+    justify-content: flex-end;
+  }
+
+  .kvGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
