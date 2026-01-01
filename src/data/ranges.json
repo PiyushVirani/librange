@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "start": "AC 1",
+    "end": "AZ 9999",
+    "startKey": "AC-0001",
+    "endKey": "AZ-9999",
+    "floor": "Floor 1",
+    "section": "General Works",
+    "mapRegionId": "range-101"
+  },
+  {
+    "id": "2",
+    "start": "QA 1",
+    "end": "QA 75",
+    "startKey": "QA-0001",
+    "endKey": "QA-0075",
+    "floor": "Floor 3",
+    "section": "Math - General",
+    "mapRegionId": "range-305"
+  },
+  {
+    "id": "3",
+    "start": "QA 76",
+    "end": "QA 76.9",
+    "startKey": "QA-0076",
+    "endKey": "QA-0076",
+    "floor": "Floor 3",
+    "section": "Computer Science / Software",
+    "mapRegionId": "range-306"
+  },
+  {
+    "id": "4",
+    "start": "QA 77",
+    "end": "QA 999",
+    "startKey": "QA-0077",
+    "endKey": "QA-0999",
+    "floor": "Floor 3",
+    "section": "Math - Advanced",
+    "mapRegionId": "range-307"
+  },
+  {
+    "id": "5",
+    "start": "Z 1",
+    "end": "Z 9999",
+    "startKey": "Z-0001",
+    "endKey": "Z-9999",
+    "floor": "Floor 5",
+    "section": "Bibliography",
+    "mapRegionId": "range-501"
+  }
+]

@@ -1,7 +1,10 @@
+import ranges from './data/ranges.json'; // Import the data
+console.log("Loaded Ranges:", ranges);   // Log it on load
 import {useState} from 'react';
 import CallNumberForm from './components/CallNumberForm';
 import { ParsedCallNumber } from './types/ParsedCallNumber';
 import { parseCallNumber } from './lib/parseCallNumber';
+import { getCallNumberKey } from './lib/getCallNumberKey';
 
 function App() {
   const [currentSearch, setCurrentSearch] = useState('');
@@ -11,6 +14,10 @@ function App() {
     setCurrentSearch(term);
     const result = parseCallNumber(term);
     setParsedData(result);
+    if (result) {
+        const key = getCallNumberKey(result);
+        console.log("Generated Sort Key:", key);
+    }
     console.log("App received:", term, result);
   };
   return (
