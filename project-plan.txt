@@ -27,7 +27,9 @@ The guide to call numbers for this project:
 Library of Congress Tutorial - Call Number and Shelving
 
 * The first line is always a Letter Line and is filed alphabetically.
+* A call number may not start with 4 or more consecutive letters.
 * The second line is a Whole Number line and is filed numerically.
+* This number may have a maximum of 4 digits before the first decimal point. If there is no decimal point, it may still have a maximum of 4 digits.
 * Sometimes the second line is decimalized and continued on the same line or on the third line. Anytime you see a decimal point, always take each space separately (do not consider it a whole number).
 * However, generally the third line is a Cutter Line. It begins with a decimal, then a letter. Always read each digit separately in the Cutter Line. Remember if there is a decimal point, take one space at a time. The Cutter Line may also be split on two lines, but when this occurs there is only a decimal point at the very beginning of the Cutter Line.
 * Other lines may include volume numbers, copy numbers, dates or a combination.
@@ -37,8 +39,6 @@ Library of Congress Tutorial - Call Number and Shelving
 * Volumes are compared before copies.
 * Copies are compared before dates.
 * x ("little x") represents 1/2 - it comes after the letters but before numbers.
-* Ignore "Undergrad" or "UrbLib" at the beginning of call numbers - these are old labels from a time where the Library was arranged differently.
-
 
 Modules
 
