@@ -1,52 +1,102 @@
 [
   {
     "id": "1",
-    "start": "AC 1",
-    "end": "AZ 9999",
-    "startKey": "AC-0001",
-    "endKey": "AZ-9999",
-    "floor": "Floor 1",
-    "section": "General Works",
-    "mapRegionId": "range-101"
+    "start": "AC 1 H37",
+    "end": "B 128 C8",
+    "startKey": "AC-0001.H0037",
+    "endKey": "B-0128.C0008",
+    "floor": "Floor 5",
+    "section": "Collections → Philosophy",
+    "mapRegionId": "range-5-001"
   },
   {
     "id": "2",
-    "start": "QA 1",
-    "end": "QA 75",
-    "startKey": "QA-0001",
-    "endKey": "QA-0075",
-    "floor": "Floor 3",
-    "section": "Math - General",
-    "mapRegionId": "range-305"
+    "start": "B 128 C8",
+    "end": "B 780 M3",
+    "startKey": "B-0128.C0008",
+    "endKey": "B-0780.M0003",
+    "floor": "Floor 5",
+    "section": "Philosophy (B)",
+    "mapRegionId": "range-5-002"
   },
   {
     "id": "3",
-    "start": "QA 76",
-    "end": "QA 76.9",
-    "startKey": "QA-0076",
-    "endKey": "QA-0076",
-    "floor": "Floor 3",
-    "section": "Computer Science / Software",
-    "mapRegionId": "range-306"
+    "start": "B 780 M3",
+    "end": "B 945 D43",
+    "startKey": "B-0780.M0003",
+    "endKey": "B-0945.D0043",
+    "floor": "Floor 5",
+    "section": "Philosophy (B)",
+    "mapRegionId": "range-5-003"
   },
   {
     "id": "4",
-    "start": "QA 77",
-    "end": "QA 999",
-    "startKey": "QA-0077",
-    "endKey": "QA-0999",
-    "floor": "Floor 3",
-    "section": "Math - Advanced",
-    "mapRegionId": "range-307"
+    "start": "B 945 D43",
+    "end": "B 2220 1969",
+    "startKey": "B-0945.D0043",
+    "endKey": "B-2220-1969",
+    "floor": "Floor 5",
+    "section": "Philosophy (B)",
+    "mapRegionId": "range-5-004"
   },
   {
     "id": "5",
-    "start": "Z 1",
-    "end": "Z 9999",
-    "startKey": "Z-0001",
-    "endKey": "Z-9999",
+    "start": "B 2220 1969",
+    "end": "B 3209 B76",
+    "startKey": "B-2220-1969",
+    "endKey": "B-3209.B0076",
     "floor": "Floor 5",
-    "section": "Bibliography",
-    "mapRegionId": "range-501"
+    "section": "Philosophy (B)",
+    "mapRegionId": "range-5-005"
+  },
+  {
+    "id": "6",
+    "start": "B 3209 B76",
+    "end": "B 5134 A4",
+    "startKey": "B-3209.B0076",
+    "endKey": "B-5134.A0004",
+    "floor": "Floor 5",
+    "section": "Philosophy (B)",
+    "mapRegionId": "range-5-006"
+  },
+  {
+    "id": "7",
+    "start": "B 5134 K75",
+    "end": "BD 241 H36",
+    "startKey": "B-5134.K0075",
+    "endKey": "BD-0241.H0036",
+    "floor": "Floor 5",
+    "section": "Philosophy → Speculative Philosophy",
+    "mapRegionId": "range-5-007"
+  },
+  {
+    "id": "8",
+    "start": "BD 241 H365",
+    "end": "BF 109 F74",
+    "startKey": "BD-0241.H0365",
+    "endKey": "BF-0109.F0074",
+    "floor": "Floor 5",
+    "section": "Speculative Philosophy → Psychology",
+    "mapRegionId": "range-5-008"
+  },
+  {
+    "id": "9",
+    "start": "BF 109 F74",
+    "end": "BF 311 E585",
+    "startKey": "BF-0109.F0074",
+    "endKey": "BF-0311.E0585",
+    "floor": "Floor 5",
+    "section": "Psychology (BF)",
+    "mapRegionId": "range-5-009"
+  },
+  {
+    "id": "10",
+    "start": "BF 311 E5913",
+    "end": "BF 469 S69",
+    "startKey": "BF-0311.E5913",
+    "endKey": "BF-0469.S0069",
+    "floor": "Floor 5",
+    "section": "Psychology (BF)",
+    "mapRegionId": "range-5-010"
   }
 ]
