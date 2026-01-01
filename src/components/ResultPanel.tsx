@@ -74,21 +74,21 @@ export default function ResultPanel({ search, parsed, match }: ResultPanelProps)
     );
   }
 
-  // 3) Parsed OK, but no match
+  // 3) Parsed OK, but no match (invalid range)
   if (!match) {
     return (
-      <section className="card resultCard--warning" aria-live="polite">
+      <section className="card resultCard--error" aria-live="polite">
         <div className="resultHeader">
           <h2 className="resultTitle">Result</h2>
-          <span className="badge badge--warning">
+          <span className="badge badge--error">
             <span className="badgeDot" aria-hidden="true" />
-            No match
+            Invalid Range
           </span>
         </div>
 
         <div className="resultBody">
           <p className="note">
-            We understood the call number, but it doesn’t match any range in the current dataset.
+            No item with this call number was found at MacOdrum Library.
           </p>
 
           <div className="kvGrid">
@@ -97,13 +97,13 @@ export default function ResultPanel({ search, parsed, match }: ResultPanelProps)
               <div className="v">{formatParsed(parsed)}</div>
             </div>
             <div className="kv">
-              <div className="k">Next step</div>
-              <div className="v">Update ranges.json</div>
+              <div className="k">Status</div>
+              <div className="v">Invalid Range</div>
             </div>
           </div>
 
           <p className="note">
-            This is expected until you replace the example ranges with real MacOdrum ranges.
+            Add or update a range entry that covers this call number, then try again.
           </p>
         </div>
       </section>
