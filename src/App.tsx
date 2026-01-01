@@ -53,7 +53,7 @@ function App() {
             <div>
               <h1 className="title">LibRange</h1>
               <p className="subtitle">
-                Paste a Library of Congress call number to find the matching range (prototype dataset).
+                Enter a Library of Congress call number to find where the item is located in Carleton University's MacOdrum Library
               </p>
             </div>
           </div>
