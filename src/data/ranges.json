@@ -109,4 +109,14 @@
     "section": "Psychology (BF)",
     "mapRegionId": "range-5-011"
   }
+      {
+    "id": "12",
+    "start": "BF 683 P48",
+    "end": "BF 723 I6",
+    "startKey": "BF-0683.P0048",
+    "endKey": "BF-0723.I0006",
+    "floor": "Floor 5",
+    "section": "Psychology (BF)",
+    "mapRegionId": "range-5-012"
+  }
 ]
