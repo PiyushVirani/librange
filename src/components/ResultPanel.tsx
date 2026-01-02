@@ -8,10 +8,10 @@ interface ResultPanelProps {
 }
 
 function formatParsed(parsed: ParsedCallNumber): string {
-  const number =
-    Number.isFinite(parsed.classNumber) ? String(parsed.classNumber) : '';
+  const number = Number.isFinite(parsed.classNumber) ? String(parsed.classNumber) : '';
   const cutter = parsed.itemCutter ? ` ${parsed.itemCutter}` : '';
-  return `${parsed.classLetters} ${number}${cutter}`.trim();
+  const year = parsed.year ? ` ${parsed.year}` : '';
+  return `${parsed.classLetters} ${number}${cutter}${year}`.trim();
 }
 
 export default function ResultPanel({ search, parsed, match }: ResultPanelProps) {

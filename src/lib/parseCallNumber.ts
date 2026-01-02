@@ -1,38 +1,43 @@
 import { ParsedCallNumber } from "../types/ParsedCallNumber";
 
 export function parseCallNumber(input: string): ParsedCallNumber | null {
-  // Normalize pasted multi-line labels into a single line.
   const clean = input.replace(/\s+/g, " ").trim().toUpperCase();
   if (!clean) return null;
 
-  // Pattern (conservative MVP):
-  // - 1–3 starting letters (rule: may not start with 4+ letters)
-  // - optional "x" marker after letters (represents 1/2)
-  // - whole number: 1–4 digits
-  // - optional decimal part: "." followed by digits (spaces around '.' allowed in pasted labels)
-  // - optional first cutter: "." + letter + digits (digits may be separated by spaces if wrapped)
+  // Supports:
+  // - cutter with or without a dot: "B 128 C8" or "B 128 .C8"
+  // - optional decimal: "QA 76.73"
+  // - optional year: "B 2220 1969"
   const regex =
-    /^([A-Z]{1,3})\s*(?:X\s*)?(\d{1,4})(?:\s*\.\s*(\d+))?\s*(\.\s*[A-Z]\s*(?:\d\s*)+)?/;
+    /^([A-Z]{1,3})\s*(?:X\s*)?(\d{1,4})(?:\s*\.\s*(\d+))?(?:\s*\.?\s*([A-Z])\s*(\d(?:\s*\d)*))?(?:\s+([12]\d{3}))?/;
 
-  const match = clean.match(regex);
-  if (!match) return null;
+  const m = clean.match(regex);
+  if (!m) return null;
 
-  const classLetters = match[1];
+  const classLetters = m[1];
+  const whole = m[2];
+  const decDigits = m[3];
 
-  const whole = match[2];
-  const dec = match[3];
-  const classNumber = parseFloat(dec ? `${whole}.${dec}` : whole);
+  const classNumber = parseFloat(decDigits ? `${whole}.${decDigits}` : whole);
+
+  const cutterLetter = m[4];
+  const cutterDigitsRaw = m[5];
+  const yearRaw = m[6];
 
   let itemCutter: string | undefined;
-  if (match[4]) {
-    // Normalize cutter: remove all whitespace inside it (". J 3 8" -> ".J38")
-    itemCutter = match[4].replace(/\s+/g, "");
+  if (cutterLetter && cutterDigitsRaw) {
+    const cutterDigits = cutterDigitsRaw.replace(/\s+/g, "");
+    itemCutter = `.${cutterLetter}${cutterDigits}`;
   }
+
+  const year = yearRaw ? Number(yearRaw) : undefined;
 
   return {
     raw: input,
     classLetters,
     classNumber,
+    classDecimalDigits: decDigits,
     itemCutter,
+    year,
   };
 }
