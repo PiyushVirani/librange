@@ -9,7 +9,6 @@
     "section": "Collections → Philosophy",
     "mapRegionId": "range-5-001"
   },
-
   {
     "id": "2",
     "start": "B 128 C8",
@@ -100,7 +99,7 @@
     "section": "Psychology (BF)",
     "mapRegionId": "range-5-010"
   },
-    {
+  {
     "id": "11",
     "start": "BF 469 V57",
     "end": "BF 683 P48",
@@ -110,7 +109,7 @@
     "section": "Psychology (BF)",
     "mapRegionId": "range-5-011"
   },
-      {
+  {
     "id": "12",
     "start": "BF 683 P48",
     "end": "BF 723 I6",
@@ -120,27 +119,26 @@
     "section": "Psychology (BF)",
     "mapRegionId": "range-5-012"
   },
-      {
-    "id": "3-1", 
+  {
+    "id": "3-1",
     "start": "HQ 7 F34",
     "end": "HQ 76.3 U5",
-    "startKey": "HQ-0007.F0034", 
-    "endKey": "HQ-0076.3000",     
+    "startKey": "HQ-0007.F0034",
+    "endKey": "HQ-0076.3000",
     "floor": "Floor 3",
     "section": "Family, Marriage, Women (HQ)",
-    "mapRegionId": "range-3-001"  
+    "mapRegionId": "range-3-001"
   },
-        {
-    "id": "3-2", 
+  {
+    "id": "3-2",
     "start": "HQ 7 F34",
     "end": "HQ 76.3",
-    "startKey": "HQ-0007.F0034", 
-    "endKey": "HQ-0076.3.U0005",     
+    "startKey": "HQ-0007.F0034",
+    "endKey": "HQ-0076.3.U0005",
     "floor": "Floor 3",
     "section": "Family, Marriage, Women (HQ)",
-    "mapRegionId": "range-3-001"  
+    "mapRegionId": "range-3-001"
   },
-  [
   {
     "id": "3-2",
     "start": "HQ 76.3 U5",
@@ -221,7 +219,7 @@
     "section": "Family, Marriage, Women (HQ)",
     "mapRegionId": "range-3-009"
   },
-      {
+  {
     "id": "3-10",
     "start": "HQ 1796.5 Z75",
     "end": "HT 127 C335",
@@ -231,6 +229,4 @@
     "section": "Family (HQ) → Communities (HT)",
     "mapRegionId": "range-3-010"
   }
-
-]
 ]
