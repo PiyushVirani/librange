@@ -2,199 +2,155 @@
   {
     "start": "AC 1 H37",
     "end": "B 128 C8",
-    "startKey": "AC-0001.H0037",
-    "endKey": "B-0128.C0008",
-    "floor": "Floor 5",
-    "section": "Collections → Philosophy",
-    "mapRegionId": "range-5-001"
+    "floorNumber": 5,
+    "rangeNumber": 1,
+    "section": "Collections - Philosophy"
   },
   {
     "start": "B 128 C8",
     "end": "B 780 M3",
-    "startKey": "B-0128.C0008",
-    "endKey": "B-0780.M0003",
-    "floor": "Floor 5",
-    "section": "Philosophy (B)",
-    "mapRegionId": "range-5-002"
+    "floorNumber": 5,
+    "rangeNumber": 2,
+    "section": "Philosophy (B)"
   },
   {
     "start": "B 780 M3",
     "end": "B 945 D43",
-    "startKey": "B-0780.M0003",
-    "endKey": "B-0945.D0043",
-    "floor": "Floor 5",
-    "section": "Philosophy (B)",
-    "mapRegionId": "range-5-003"
+    "floorNumber": 5,
+    "rangeNumber": 3,
+    "section": "Philosophy (B)"
   },
   {
     "start": "B 945 D43",
     "end": "B 2220 1969",
-    "startKey": "B-0945.D0043",
-    "endKey": "B-2220-1969",
-    "floor": "Floor 5",
-    "section": "Philosophy (B)",
-    "mapRegionId": "range-5-004"
+    "floorNumber": 5,
+    "rangeNumber": 4,
+    "section": "Philosophy (B)"
   },
   {
     "start": "B 2220 1969",
     "end": "B 3209 B76",
-    "startKey": "B-2220-1969",
-    "endKey": "B-3209.B0076",
-    "floor": "Floor 5",
-    "section": "Philosophy (B)",
-    "mapRegionId": "range-5-005"
+    "floorNumber": 5,
+    "rangeNumber": 5,
+    "section": "Philosophy (B)"
   },
   {
     "start": "B 3209 B76",
     "end": "B 5134 A4",
-    "startKey": "B-3209.B0076",
-    "endKey": "B-5134.A0004",
-    "floor": "Floor 5",
-    "section": "Philosophy (B)",
-    "mapRegionId": "range-5-006"
+    "floorNumber": 5,
+    "rangeNumber": 6,
+    "section": "Philosophy (B)"
   },
   {
     "start": "B 5134 K75",
     "end": "BD 241 H36",
-    "startKey": "B-5134.K0075",
-    "endKey": "BD-0241.H0036",
-    "floor": "Floor 5",
-    "section": "Philosophy → Speculative Philosophy",
-    "mapRegionId": "range-5-007"
+    "floorNumber": 5,
+    "rangeNumber": 7,
+    "section": "Philosophy - Speculative Philosophy"
   },
   {
     "start": "BD 241 H365",
     "end": "BF 109 F74",
-    "startKey": "BD-0241.H0365",
-    "endKey": "BF-0109.F0074",
-    "floor": "Floor 5",
-    "section": "Speculative Philosophy → Psychology",
-    "mapRegionId": "range-5-008"
+    "floorNumber": 5,
+    "rangeNumber": 8,
+    "section": "Speculative Philosophy - Psychology"
   },
   {
     "start": "BF 109 F74",
     "end": "BF 311 E585",
-    "startKey": "BF-0109.F0074",
-    "endKey": "BF-0311.E0585",
-    "floor": "Floor 5",
-    "section": "Psychology (BF)",
-    "mapRegionId": "range-5-009"
+    "floorNumber": 5,
+    "rangeNumber": 9,
+    "section": "Psychology (BF)"
   },
   {
     "start": "BF 311 E5913",
     "end": "BF 469 S69",
-    "startKey": "BF-0311.E5913",
-    "endKey": "BF-0469.S0069",
-    "floor": "Floor 5",
-    "section": "Psychology (BF)",
-    "mapRegionId": "range-5-010"
+    "floorNumber": 5,
+    "rangeNumber": 10,
+    "section": "Psychology (BF)"
   },
   {
     "start": "BF 469 V57",
     "end": "BF 683 P48",
-    "startKey": "BF-0469.V57",
-    "endKey": "BF-0683.P0048",
-    "floor": "Floor 5",
-    "section": "Psychology (BF)",
-    "mapRegionId": "range-5-011"
+    "floorNumber": 5,
+    "rangeNumber": 11,
+    "section": "Psychology (BF)"
   },
   {
     "start": "BF 683 P48",
     "end": "BF 723 I6",
-    "startKey": "BF-0683.P0048",
-    "endKey": "BF-0723.I0006",
-    "floor": "Floor 5",
-    "section": "Psychology (BF)",
-    "mapRegionId": "range-5-012"
+    "floorNumber": 5,
+    "rangeNumber": 12,
+    "section": "Psychology (BF)"
   },
   {
     "start": "HQ 7 F34",
     "end": "HQ 76.3 U5",
-    "startKey": "HQ-0007.F0034",
-    "endKey": "HQ-0076.3000",
-    "floor": "Floor 3",
-    "section": "Family, Marriage, Women (HQ)",
-    "mapRegionId": "range-3-001"
+    "floorNumber": 3,
+    "rangeNumber": 1,
+    "section": "Family, Marriage, Women (HQ)"
   },
   {
     "start": "HQ 76.3 U5",
     "end": "HQ 728 W52",
-    "startKey": "HQ-0076.3.U0005",
-    "endKey": "HQ-0728.W0052",
-    "floor": "Floor 3",
-    "section": "Family, Marriage, Women (HQ)",
-    "mapRegionId": "range-3-002"
+    "floorNumber": 3,
+    "rangeNumber": 2,
+    "section": "Family, Marriage, Women (HQ)"
   },
   {
     "start": "HQ 728 W526",
     "end": "HQ 767.9 G576",
-    "startKey": "HQ-0728.W0526",
-    "endKey": "HQ-0767.9.G0576",
-    "floor": "Floor 3",
-    "section": "Family, Marriage, Women (HQ)",
-    "mapRegionId": "range-3-003"
+    "floorNumber": 3,
+    "rangeNumber": 3,
+    "section": "Family, Marriage, Women (HQ)"
   },
   {
     "start": "HQ 767.9 G75",
     "end": "HQ 809.3 U5",
-    "startKey": "HQ-0767.9.G0075",
-    "endKey": "HQ-0809.3.U0005",
-    "floor": "Floor 3",
-    "section": "Family, Marriage, Women (HQ)",
-    "mapRegionId": "range-3-004"
+    "floorNumber": 3,
+    "rangeNumber": 4,
+    "section": "Family, Marriage, Women (HQ)"
   },
   {
     "start": "HQ 809.3 U5",
     "end": "HQ 1075.5 I74",
-    "startKey": "HQ-0809.3.U0005",
-    "endKey": "HQ-1075.5.I0074",
-    "floor": "Floor 3",
-    "section": "Family, Marriage, Women (HQ)",
-    "mapRegionId": "range-3-005"
+    "floorNumber": 3,
+    "rangeNumber": 5,
+    "section": "Family, Marriage, Women (HQ)"
   },
   {
     "start": "HQ 1075.5 I8",
     "end": "HQ 1154 M5",
-    "startKey": "HQ-1075.5.I0008",
-    "endKey": "HQ-1154.M0005",
-    "floor": "Floor 3",
-    "section": "Family, Marriage, Women (HQ)",
-    "mapRegionId": "range-3-006"
+    "floorNumber": 3,
+    "rangeNumber": 6,
+    "section": "Family, Marriage, Women (HQ)"
   },
   {
     "start": "HQ 1154 M53",
     "end": "HQ 1236 W6519",
-    "startKey": "HQ-1154.M0053",
-    "endKey": "HQ-1236.W6519",
-    "floor": "Floor 3",
-    "section": "Family, Marriage, Women (HQ)",
-    "mapRegionId": "range-3-007"
+    "floorNumber": 3,
+    "rangeNumber": 7,
+    "section": "Family, Marriage, Women (HQ)"
   },
   {
     "start": "HQ 1236 W66",
     "end": "HQ 1439 A94",
-    "startKey": "HQ-1236.W0066",
-    "endKey": "HQ-1439.A0094",
-    "floor": "Floor 3",
-    "section": "Family, Marriage, Women (HQ)",
-    "mapRegionId": "range-3-008"
+    "floorNumber": 3,
+    "rangeNumber": 8,
+    "section": "Family, Marriage, Women (HQ)"
   },
   {
     "start": "HQ 1453 A3",
     "end": "HQ 1796.5 W63",
-    "startKey": "HQ-1453.A0003",
-    "endKey": "HQ-1796.5.W0063",
-    "floor": "Floor 3",
-    "section": "Family, Marriage, Women (HQ)",
-    "mapRegionId": "range-3-009"
+    "floorNumber": 3,
+    "rangeNumber": 9,
+    "section": "Family, Marriage, Women (HQ)"
   },
   {
     "start": "HQ 1796.5 Z75",
     "end": "HT 127 C335",
-    "startKey": "HQ-1796.5.Z0075",
-    "endKey": "HT-0127.C0335",
-    "floor": "Floor 3",
-    "section": "Family (HQ) → Communities (HT)",
-    "mapRegionId": "range-3-010"
+    "floorNumber": 3,
+    "rangeNumber": 10,
+    "section": "Family (HQ) - Communities (HT)"
   }
 ]

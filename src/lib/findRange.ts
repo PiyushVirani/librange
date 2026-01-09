@@ -2,32 +2,42 @@ import { ParsedCallNumber } from "../types/ParsedCallNumber";
 import { RangeRecord } from "../types/RangeRecord";
 import { RangeMatch } from "../types/RangeMatch";
 import { getCallNumberKey } from "./getCallNumberKey";
+import { parseCallNumber } from "./parseCallNumber";
 
 /**
- * Scans the list of ranges to find which one contains the call number.
- * * @param parsed The object returned from parseCallNumber
- * @param ranges The array of range data (from ranges.json)
- * @returns The matching Range record, or null if no match found.
+ * Finds which range contains the call number.
+ * Uses computed keys from the human-readable start/end fields,
+ * so ranges.json does NOT need to store startKey/endKey.
  */
-export function findRange(
-    parsed: ParsedCallNumber, 
-    ranges: RangeRecord[]
-): RangeMatch | null {
-    
-    // 1. Generate the standardized key (e.g., "QA-0076")
-    const searchKey = getCallNumberKey(parsed);
+export function findRange(parsed: ParsedCallNumber, ranges: RangeRecord[]): RangeMatch | null {
+  const searchKey = getCallNumberKey(parsed);
 
-    // 2. Linear Scan
-    // Since we have a small dataset (tens or hundreds of ranges), 
-    // a simple loop is extremely fast and easy to debug.
-    for (const range of ranges) {
-        // 3. Comparison Logic
-        // Because we padded our numbers (QA-0001, QA-0076), we can use 
-        // standard string comparison operators (>= and <=).
-        if (searchKey >= range.startKey && searchKey <= range.endKey) {
-            return range; // Found it!
-        }
+  let best: RangeMatch | null = null;
+  let bestStartKey = "";
+
+  for (const range of ranges) {
+    // Skip incomplete rows (useful while ranges.json is still being populated)
+    if (!range?.start || !range?.end) continue;
+
+    const startParsed = parseCallNumber(range.start);
+    const endParsed = parseCallNumber(range.end);
+    if (!startParsed || !endParsed) continue;
+
+    const a = getCallNumberKey(startParsed);
+    const b = getCallNumberKey(endParsed);
+
+    // Safety: allow start/end to be accidentally swapped in data
+    const startKey = a <= b ? a : b;
+    const endKey = a <= b ? b : a;
+
+    if (searchKey >= startKey && searchKey <= endKey) {
+      // Prefer the most specific match (largest startKey)
+      if (!best || startKey > bestStartKey) {
+        best = range;
+        bestStartKey = startKey;
+      }
     }
+  }
 
-    return null; // No range found for this call number
+  return best;
 }

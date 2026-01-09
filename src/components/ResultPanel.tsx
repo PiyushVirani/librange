@@ -1,5 +1,5 @@
-import { ParsedCallNumber } from '../types/ParsedCallNumber';
-import { RangeMatch } from '../types/RangeMatch';
+import { ParsedCallNumber } from "../types/ParsedCallNumber";
+import { RangeMatch } from "../types/RangeMatch";
 
 interface ResultPanelProps {
   search: string;
@@ -8,9 +8,9 @@ interface ResultPanelProps {
 }
 
 function formatParsed(parsed: ParsedCallNumber): string {
-  const number = Number.isFinite(parsed.classNumber) ? String(parsed.classNumber) : '';
-  const cutter = parsed.itemCutter ? ` ${parsed.itemCutter}` : '';
-  const year = parsed.year ? ` ${parsed.year}` : '';
+  const number = Number.isFinite(parsed.classNumber) ? String(parsed.classNumber) : "";
+  const cutter = parsed.itemCutter ? ` ${parsed.itemCutter}` : "";
+  const year = parsed.year ? ` ${parsed.year}` : "";
   return `${parsed.classLetters} ${number}${cutter}${year}`.trim();
 }
 
@@ -27,12 +27,8 @@ export default function ResultPanel({ search, parsed, match }: ResultPanelProps)
           </span>
         </div>
         <div className="resultBody">
-          <p className="note">
-            Enter a call number above to look up the matching range.
-          </p>
-          <p className="note">
-            Tip: You can paste directly from the catalog label.
-          </p>
+          <p className="note">Enter a call number above to look up the matching range.</p>
+          <p className="note">Tip: You can paste directly from the catalog label.</p>
         </div>
       </section>
     );
@@ -46,14 +42,12 @@ export default function ResultPanel({ search, parsed, match }: ResultPanelProps)
           <h2 className="resultTitle">Result</h2>
           <span className="badge badge--error">
             <span className="badgeDot" aria-hidden="true" />
-            Couldn’t parse
+            Couldn't parse
           </span>
         </div>
 
         <div className="resultBody">
-          <p className="note">
-            We couldn’t understand that call number.
-          </p>
+          <p className="note">We couldn't understand that call number.</p>
 
           <div className="kvGrid">
             <div className="kv">
@@ -74,7 +68,7 @@ export default function ResultPanel({ search, parsed, match }: ResultPanelProps)
     );
   }
 
-  // 3) Parsed OK, but no match (invalid range)
+  // 3) Parsed OK, but no match
   if (!match) {
     return (
       <section className="card resultCard--error" aria-live="polite">
@@ -87,9 +81,7 @@ export default function ResultPanel({ search, parsed, match }: ResultPanelProps)
         </div>
 
         <div className="resultBody">
-          <p className="note">
-            No item with this call number was found at MacOdrum Library.
-          </p>
+          <p className="note">No item with this call number was found in the current ranges dataset.</p>
 
           <div className="kvGrid">
             <div className="kv">
@@ -102,9 +94,7 @@ export default function ResultPanel({ search, parsed, match }: ResultPanelProps)
             </div>
           </div>
 
-          <p className="note">
-            Add or update a range entry that covers this call number, then try again.
-          </p>
+          <p className="note">Add or update a range entry that covers this call number, then try again.</p>
         </div>
       </section>
     );
@@ -122,14 +112,12 @@ export default function ResultPanel({ search, parsed, match }: ResultPanelProps)
       </div>
 
       <div className="resultBody">
-        <p className="note">
-          Head to the location below. (Map highlighting comes next in Phase 3.)
-        </p>
+        <p className="note">Head to the location below. (Map highlighting comes next in Phase 3.)</p>
 
         <div className="kvGrid">
           <div className="kv">
             <div className="k">Floor</div>
-            <div className="v">{match.floor}</div>
+            <div className="v">Floor {match.floorNumber}</div>
           </div>
           <div className="kv">
             <div className="k">Section</div>
@@ -137,12 +125,12 @@ export default function ResultPanel({ search, parsed, match }: ResultPanelProps)
           </div>
           <div className="kv">
             <div className="k">Range #</div>
-            <div className="v">{match.id}</div>
+            <div className="v">{match.rangeNumber}</div>
           </div>
           <div className="kv">
             <div className="k">Range (data)</div>
             <div className="v">
-              {match.start} → {match.end}
+              {match.start} to {match.end}
             </div>
           </div>
         </div>
