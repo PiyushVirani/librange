@@ -1,6 +1,5 @@
 [
   {
-    "id": "5-1",
     "start": "AC 1 H37",
     "end": "B 128 C8",
     "startKey": "AC-0001.H0037",
@@ -10,7 +9,6 @@
     "mapRegionId": "range-5-001"
   },
   {
-    "id": "2",
     "start": "B 128 C8",
     "end": "B 780 M3",
     "startKey": "B-0128.C0008",
@@ -20,7 +18,6 @@
     "mapRegionId": "range-5-002"
   },
   {
-    "id": "3",
     "start": "B 780 M3",
     "end": "B 945 D43",
     "startKey": "B-0780.M0003",
@@ -30,7 +27,6 @@
     "mapRegionId": "range-5-003"
   },
   {
-    "id": "4",
     "start": "B 945 D43",
     "end": "B 2220 1969",
     "startKey": "B-0945.D0043",
@@ -40,7 +36,6 @@
     "mapRegionId": "range-5-004"
   },
   {
-    "id": "5",
     "start": "B 2220 1969",
     "end": "B 3209 B76",
     "startKey": "B-2220-1969",
@@ -50,7 +45,6 @@
     "mapRegionId": "range-5-005"
   },
   {
-    "id": "6",
     "start": "B 3209 B76",
     "end": "B 5134 A4",
     "startKey": "B-3209.B0076",
@@ -60,7 +54,6 @@
     "mapRegionId": "range-5-006"
   },
   {
-    "id": "7",
     "start": "B 5134 K75",
     "end": "BD 241 H36",
     "startKey": "B-5134.K0075",
@@ -70,7 +63,6 @@
     "mapRegionId": "range-5-007"
   },
   {
-    "id": "8",
     "start": "BD 241 H365",
     "end": "BF 109 F74",
     "startKey": "BD-0241.H0365",
@@ -80,7 +72,6 @@
     "mapRegionId": "range-5-008"
   },
   {
-    "id": "9",
     "start": "BF 109 F74",
     "end": "BF 311 E585",
     "startKey": "BF-0109.F0074",
@@ -90,7 +81,6 @@
     "mapRegionId": "range-5-009"
   },
   {
-    "id": "10",
     "start": "BF 311 E5913",
     "end": "BF 469 S69",
     "startKey": "BF-0311.E5913",
@@ -100,7 +90,6 @@
     "mapRegionId": "range-5-010"
   },
   {
-    "id": "11",
     "start": "BF 469 V57",
     "end": "BF 683 P48",
     "startKey": "BF-0469.V57",
@@ -110,7 +99,6 @@
     "mapRegionId": "range-5-011"
   },
   {
-    "id": "12",
     "start": "BF 683 P48",
     "end": "BF 723 I6",
     "startKey": "BF-0683.P0048",
@@ -120,7 +108,6 @@
     "mapRegionId": "range-5-012"
   },
   {
-    "id": "3-1",
     "start": "HQ 7 F34",
     "end": "HQ 76.3 U5",
     "startKey": "HQ-0007.F0034",
@@ -130,17 +117,6 @@
     "mapRegionId": "range-3-001"
   },
   {
-    "id": "3-2",
-    "start": "HQ 7 F34",
-    "end": "HQ 76.3",
-    "startKey": "HQ-0007.F0034",
-    "endKey": "HQ-0076.3.U0005",
-    "floor": "Floor 3",
-    "section": "Family, Marriage, Women (HQ)",
-    "mapRegionId": "range-3-001"
-  },
-  {
-    "id": "3-2",
     "start": "HQ 76.3 U5",
     "end": "HQ 728 W52",
     "startKey": "HQ-0076.3.U0005",
@@ -150,7 +126,6 @@
     "mapRegionId": "range-3-002"
   },
   {
-    "id": "3-3",
     "start": "HQ 728 W526",
     "end": "HQ 767.9 G576",
     "startKey": "HQ-0728.W0526",
@@ -160,7 +135,6 @@
     "mapRegionId": "range-3-003"
   },
   {
-    "id": "3-4",
     "start": "HQ 767.9 G75",
     "end": "HQ 809.3 U5",
     "startKey": "HQ-0767.9.G0075",
@@ -170,7 +144,6 @@
     "mapRegionId": "range-3-004"
   },
   {
-    "id": "3-5",
     "start": "HQ 809.3 U5",
     "end": "HQ 1075.5 I74",
     "startKey": "HQ-0809.3.U0005",
@@ -180,7 +153,6 @@
     "mapRegionId": "range-3-005"
   },
   {
-    "id": "3-6",
     "start": "HQ 1075.5 I8",
     "end": "HQ 1154 M5",
     "startKey": "HQ-1075.5.I0008",
@@ -190,7 +162,6 @@
     "mapRegionId": "range-3-006"
   },
   {
-    "id": "3-7",
     "start": "HQ 1154 M53",
     "end": "HQ 1236 W6519",
     "startKey": "HQ-1154.M0053",
@@ -200,7 +171,6 @@
     "mapRegionId": "range-3-007"
   },
   {
-    "id": "3-8",
     "start": "HQ 1236 W66",
     "end": "HQ 1439 A94",
     "startKey": "HQ-1236.W0066",
@@ -210,7 +180,6 @@
     "mapRegionId": "range-3-008"
   },
   {
-    "id": "3-9",
     "start": "HQ 1453 A3",
     "end": "HQ 1796.5 W63",
     "startKey": "HQ-1453.A0003",
@@ -220,7 +189,6 @@
     "mapRegionId": "range-3-009"
   },
   {
-    "id": "3-10",
     "start": "HQ 1796.5 Z75",
     "end": "HT 127 C335",
     "startKey": "HQ-1796.5.Z0075",

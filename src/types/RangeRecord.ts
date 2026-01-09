@@ -1,6 +1,4 @@
 export interface RangeRecord {
-    // Unique identifier for the range (e.g., "range-101")
-    id: string;
     // Human-readable start of the range (e.g., "QA 1")
     start: string;
     // Human-readable end of the range (e.g., "QA 76")
