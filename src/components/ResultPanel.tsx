@@ -120,18 +120,12 @@ export default function ResultPanel({ search, parsed, match }: ResultPanelProps)
             <div className="v">Floor {match.floorNumber}</div>
           </div>
           <div className="kv">
-            <div className="k">Section</div>
-            <div className="v">{match.section}</div>
-          </div>
-          <div className="kv">
             <div className="k">Range #</div>
             <div className="v">{match.rangeNumber}</div>
           </div>
-          <div className="kv">
-            <div className="k">Range (data)</div>
-            <div className="v">
-              {match.start} to {match.end}
-            </div>
+          <div className="kv kv--span2">
+            <div className="k">Section</div>
+            <div className="v">{match.section}</div>
           </div>
         </div>
 
