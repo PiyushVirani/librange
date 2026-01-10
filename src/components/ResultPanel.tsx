@@ -123,7 +123,7 @@ export default function ResultPanel({ search, parsed, match, section }: ResultPa
         <div className="kvGrid">
           <div className="kv">
             <div className="k">Floor</div>
-            <div className="v">Floor {match.floorNumber}</div>
+            <div className="v">{match.floorNumber}</div>
           </div>
           <div className="kv">
             <div className="k">Section</div>
