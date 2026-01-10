@@ -65,7 +65,7 @@ function App() {
             <div>
               <h1 className="title">LibRange</h1>
               <p className="subtitle">
-                Enter a Library of Congress call number to find where the item is located in Carleton University's MacOdrum Library
+                Enter a call number to find where an item is located in the MacOdrum Library.
               </p>
             </div>
           </div>
