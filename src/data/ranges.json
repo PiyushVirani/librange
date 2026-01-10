@@ -1862,5 +1862,829 @@
     "endLeft": "PR 9665.9 W46",
     "startRight": null,
     "endRight": null
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 1,
+    "startLeft": "AC 1 H37",
+    "endLeft": "B 1 O9",
+    "startRight": "B 1 O9",
+    "endRight": "B 128 C8"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 2,
+    "startLeft": "B 128 C8",
+    "endLeft": "B 430 K73",
+    "startRight": "B 430 M3",
+    "endRight": "B 780 M3"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 3,
+    "startLeft": "B 780 M45",
+    "endLeft": "B 820 G7",
+    "startRight": "B 820 G8",
+    "endRight": "B 945 D43"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 4,
+    "startLeft": "B 945 D43",
+    "endLeft": "B 1574 B34",
+    "startRight": "B 1583 F7",
+    "endRight": "B 2220 1969"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 5,
+    "startLeft": "B 2222 1982",
+    "endLeft": "B 2758 Z9",
+    "startRight": "B 2759 F4",
+    "endRight": "B 3209 B76"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 6,
+    "startLeft": "B 3209 B76",
+    "endLeft": "B 3318 A4",
+    "startRight": "B 3318 A4",
+    "endRight": "B 5134 A4"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 7,
+    "startLeft": "B 5134 K75",
+    "endLeft": "BD 21 P485",
+    "startRight": "BD 21 R53",
+    "endRight": "BD 241 H36"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 8,
+    "startLeft": "BD 241 H365",
+    "endLeft": "BF 21 S79",
+    "startRight": "BF 21 S8",
+    "endRight": "BF 109 F74"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 9,
+    "startLeft": "BF 109 F74",
+    "endLeft": "BF 173 R376",
+    "startRight": "BF 173 R396",
+    "endRight": "BF 311 E585"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 10,
+    "startLeft": "BF 311 E5913",
+    "endLeft": "BF 371 V34",
+    "startRight": "BF 371 V57",
+    "endRight": "BF 469 S69"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 11,
+    "startLeft": "BF 469 V57",
+    "endLeft": "BF 575 S75",
+    "startRight": "BF 575 S75",
+    "endRight": "BF 683 P48"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 12,
+    "startLeft": "BF 683 P48",
+    "endLeft": "BF 701 K8",
+    "startRight": "BF 701 L28",
+    "endRight": "BF 723 I6"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 13,
+    "startLeft": "BF 723 I6",
+    "endLeft": "BF 1125 B3",
+    "startRight": "BF 1125 D37",
+    "endRight": "BH 301 S7"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 14,
+    "startLeft": "BH 301 S7",
+    "endLeft": "BJ 1395 P67",
+    "startRight": "BJ 1395 S63",
+    "endRight": "BL 51 C6"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 15,
+    "startLeft": "BL 51 C62",
+    "endLeft": "BL 80 S33",
+    "startRight": "BL 80 S76",
+    "endRight": "BL 473.5 F78"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 16,
+    "startLeft": "BL 473.5 G33",
+    "endLeft": "BL 1120 A3",
+    "startRight": "BL 1120 A3",
+    "endRight": "BL 2075 T48"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 17,
+    "startLeft": "BL 2080 A25",
+    "endLeft": "BM 185 K3",
+    "startRight": "BM 185 R86",
+    "endRight": "BM 562 G68"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 18,
+    "startLeft": "BM 562 N48",
+    "endLeft": "BP 80 M83",
+    "startRight": "BP 80 N89",
+    "endRight": "BP 193.1 A2"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 19,
+    "startLeft": "BP 193.15 A3",
+    "endLeft": "BQ 6330 L3",
+    "startRight": "BQ 6331 H55",
+    "endRight": "BR 100 B68"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 20,
+    "startLeft": "BR 100 S48",
+    "endLeft": "BR 190 B4",
+    "startRight": "BR 190 H37",
+    "endRight": "BR 526 F47"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 21,
+    "startLeft": "BR 526 F48",
+    "endLeft": "BR 1610 G7",
+    "startRight": "BR 1610 K3",
+    "endRight": "BS 511.2 E26"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 22,
+    "startLeft": "BS 511.2 E45",
+    "endLeft": "BS 1198 B33",
+    "startRight": "BS 1198 B37",
+    "endRight": "BS 1965 1905"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 23,
+    "startLeft": "BS 1965 1908",
+    "endLeft": "BS 2650.2 D7",
+    "startRight": "BS 2605.2 J47",
+    "endRight": "BT 94 W523"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 24,
+    "startLeft": "BT 96 F86213",
+    "endLeft": "BT 732.5 W42",
+    "startRight": "BT 732.7 H36",
+    "endRight": "BV 863 P3"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 25,
+    "startLeft": "BV 873 E8",
+    "endLeft": "BX 8.2 K47",
+    "startRight": "BX 8.2 M25",
+    "endRight": "BX 1406.2 G698"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 26,
+    "startLeft": "BX 1406.2 H25",
+    "endLeft": "BX 1749 T48",
+    "startRight": "BX 1749 T48",
+    "endRight": "BX 2624 F3"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 27,
+    "startLeft": "BX 2624 M6",
+    "endLeft": "BX 4705 M36",
+    "startRight": "BX 4705 M36",
+    "endRight": "BX 5133 S5"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 28,
+    "startLeft": "BX 5133 S74",
+    "endLeft": "BX 8115 U77",
+    "startRight": "BX 8116 D75",
+    "endRight": "BX 9999 S52"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 29,
+    "startLeft": "CB 3 F46",
+    "endLeft": "CB 353 I724",
+    "startRight": "CB 353 H47",
+    "endRight": "CC 120 W66"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 30,
+    "startLeft": "CC 125 N7",
+    "endLeft": "CT 782 S73",
+    "startRight": "CT 783 O93",
+    "endRight": "D 16.8 F46"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 31,
+    "startLeft": "D 16.8 F62",
+    "endLeft": "D 118 V48",
+    "startRight": "D 119 B3",
+    "endRight": "D 395 D47"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 32,
+    "startLeft": "D 395 F55",
+    "endLeft": "D 541 S6",
+    "startRight": "D 542 M7",
+    "endRight": "D 743 F3"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 33,
+    "startLeft": "D 743 F37",
+    "endLeft": "D 767.2 C69",
+    "startRight": "D 767.2 C7",
+    "endRight": "D 804.3 P47"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 34,
+    "startLeft": "D 804.3 P48",
+    "endLeft": "D 843 L23",
+    "startRight": "D 843 L27",
+    "endRight": "DA 16 W4"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 35,
+    "startLeft": "DA 16 W7",
+    "endLeft": "DA 30 M855",
+    "startRight": "DA 30 O9",
+    "endRight": "DA 140 G49"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 36,
+    "startLeft": "DA 140 G49",
+    "endLeft": "DA 356 C3",
+    "startRight": "DA 356 C5",
+    "endRight": "DA 495 B83"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 37,
+    "startLeft": "DA 495 G7",
+    "endLeft": "DA 550 A1",
+    "startRight": "DA 550 A1",
+    "endRight": "DA 566.9 C5"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 38,
+    "startLeft": "DA 566.9 C5",
+    "endLeft": "DA 670 C8",
+    "startRight": "DA 670 C8",
+    "endRight": "DA 803 M3"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 39,
+    "startLeft": "DA 803.15 L43",
+    "endLeft": "DB 65 E9",
+    "startRight": "DB 65 K36",
+    "endRight": "DC 33.4 B34"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 40,
+    "startLeft": "DC 33.4 B4",
+    "endLeft": "DC 122.8 S58",
+    "startRight": "DC 122.9 B4",
+    "endRight": "DC 146 S135"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 41,
+    "startLeft": "DC 146 S135",
+    "endLeft": "DC 201 T43",
+    "startRight": "DC 201 T43",
+    "endRight": "DC 280.5 A8"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 42,
+    "startLeft": "DC 280.5 B27",
+    "endLeft": "DC 412 L3813",
+    "startRight": "DC 412 L53",
+    "endRight": "DD 85 R6"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 43,
+    "startLeft": "DD 86 B69",
+    "endLeft": "DD 253.5 K6",
+    "startRight": "DD 253.3 S73",
+    "endRight": "DF 8 G28"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 44,
+    "startLeft": "DF 78 G53",
+    "endLeft": "DG 59 E8",
+    "startRight": "DG 59 M26",
+    "endRight": "DG 441 F67"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 45,
+    "startLeft": "DG 441 I84",
+    "endLeft": "DH 523 D46",
+    "startRight": "DH 523 E5",
+    "endRight": "DK 66 M37"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 46,
+    "startLeft": "DK 66 O85",
+    "endLeft": "DK 258 P674",
+    "startRight": "DK 258 R2813",
+    "endRight": "DK 274 C7"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 47,
+    "startLeft": "DK 274 D28",
+    "endLeft": "DK 511 L23",
+    "startRight": "DK 511 L25",
+    "endRight": "DP 103 C35"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 48,
+    "startLeft": "DP 103 C58",
+    "endLeft": "DP 302 B44",
+    "startRight": "DP 302 B44",
+    "endRight": "DR 568 M33"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 49,
+    "startLeft": "DR 568.8 P4",
+    "endLeft": "DS 63 A25",
+    "startRight": "DS 63 A5",
+    "endRight": "DS 119.6 N48"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 50,
+    "startLeft": "DS 119.6 R32",
+    "endLeft": "DS 135 U4",
+    "startRight": "DS 135 U4",
+    "endRight": "DS 409 W3"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 51,
+    "startLeft": "DS 410 I2313",
+    "endLeft": "DS 485 P3",
+    "startRight": "DS 485 P3",
+    "endRight": "DS 643.5 J37"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 52,
+    "startLeft": "DS 644 A6936",
+    "endLeft": "DS 777.51 J67",
+    "startRight": "DS 777.513 L44",
+    "endRight": "DS 838.7 D74"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 53,
+    "startLeft": "DS 838.7 H37",
+    "endLeft": "DT 31 B57",
+    "startRight": "DT 31 B725",
+    "endRight": "DT 353 H4"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 54,
+    "startLeft": "DT 352 H4",
+    "endLeft": "DT 516.8 R63",
+    "startRight": "DT 516.82 S73",
+    "endRight": "DT 1974 N48"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 55,
+    "startLeft": "DT 1974 R4",
+    "endLeft": "DU 744.35 D32",
+    "startRight": "DU 744.35 D32",
+    "endRight": "E 78 M25"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 56,
+    "startLeft": "E 78 M25",
+    "endLeft": "E 98 S7",
+    "startRight": "E 98 S7",
+    "endRight": "E 99 N3"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 57,
+    "startLeft": "E 99 N3",
+    "endLeft": "E 169.12 H29",
+    "startRight": "E 169.12 H29",
+    "endRight": "E 183.8 C5"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 58,
+    "startLeft": "E 183.8 C5",
+    "endLeft": "E 184 J5",
+    "startRight": "E 184 J5",
+    "endRight": "E 185.93 G4"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 59,
+    "startLeft": "E 185.93 G4",
+    "endLeft": "E 302.6 M4",
+    "startRight": "E 302.6 M4",
+    "endRight": "E 450 H46"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 60,
+    "startLeft": "E 741 W55",
+    "endLeft": "E 807 F74",
+    "startRight": "E 450 H85",
+    "endRight": "E 741 S9"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 61,
+    "startLeft": "E 885 G74",
+    "endLeft": "F 229 B882",
+    "startRight": "E 807 F75",
+    "endRight": "E 885 E49"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 62,
+    "startLeft": "F 1213 M4837",
+    "endLeft": "F 1411 C4674",
+    "startRight": "F 229 B9",
+    "endRight": "F 1213 C64"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 63,
+    "startLeft": "F 1896 A1",
+    "endLeft": "F 2684 P34",
+    "startRight": "F 1411 C4674",
+    "endRight": "F 1895 W65"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 64,
+    "startLeft": "FC 15 H83",
+    "endLeft": "FC 164 M36",
+    "startRight": "F 2684 P416",
+    "endRight": "FC 15 H83"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 65,
+    "startLeft": "FC 461 T37",
+    "endLeft": "FC 630 N49",
+    "startRight": "FC 164 I575",
+    "endRight": "FC 461 R5"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 66,
+    "startLeft": "FC 2926.9 N3",
+    "endLeft": "FC 3237 C36",
+    "startRight": "FC 630 N49",
+    "endRight": "FC 2926.9 N3"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 67,
+    "startLeft": "G 126 L6",
+    "endLeft": "GA 101.2 I57",
+    "startRight": "FC 3237 C36",
+    "endRight": "G 126 L6"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 68,
+    "startLeft": "GB 1199.4 G7",
+    "endLeft": "GE 190 E85",
+    "startRight": "GA 101.2 I57",
+    "endRight": "GB 1199.5 E43"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 69,
+    "startLeft": "GN 33 G66",
+    "endLeft": "GN 470 D82",
+    "startRight": "GE 190 E85",
+    "endRight": "GN 33 G64"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 70,
+    "startLeft": "GN 776 K45",
+    "endLeft": "GV 14 J64",
+    "startRight": "GN 470 D83",
+    "endRight": "GN 776 G7"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 71,
+    "startLeft": "GV 1785 N6",
+    "endLeft": "H 97 B435",
+    "startRight": "GV 14 L27",
+    "endRight": "GV 1785 N6"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 72,
+    "startLeft": "HB 87 C66",
+    "endLeft": "HB 171 H647",
+    "startRight": "H 97 B44",
+    "endRight": "HB 87 C63"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 73,
+    "startLeft": "HB 615 W364",
+    "endLeft": "HC 37 I83",
+    "startRight": "HB 171 I57",
+    "endRight": "HB 615 V57"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 74,
+    "startLeft": "HC 79 E5",
+    "endLeft": "HC 110 E5",
+    "startRight": "HC 37 M5",
+    "endRight": "HC 79 E5"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 75,
+    "startLeft": "HC 155.5 A5",
+    "endLeft": "HC 255 C56",
+    "startRight": "HC 110 E5",
+    "endRight": "HC 155 S53"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 76,
+    "startLeft": "HC 384 A5",
+    "endLeft": "HC 492 E3",
+    "startRight": "HC 255 C623",
+    "endRight": "HC 383 V513"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 77,
+    "startLeft": "HD 30.28 E33",
+    "endLeft": "HD 57.7 O966",
+    "startRight": "HC 492 H34",
+    "endRight": "HD 30.28 E328"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 78,
+    "startLeft": "HD 69 P75",
+    "endLeft": "HD 585 D6",
+    "startRight": "HD 57.7 P3655",
+    "endRight": "HD 69 P75"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 79,
+    "startLeft": "HD 1925 B62",
+    "endLeft": "HD 2876 C37",
+    "startRight": "HD 585 D6",
+    "endRight": "HD 1925 A36"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 80,
+    "startLeft": "HD 2877.2 C66",
+    "endLeft": "HD 4276.5 S73",
+    "startRight": "HD 4279 A55",
+    "endRight": "HD 5324 B5"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 81,
+    "startLeft": "HD 5324 C42",
+    "endLeft": "HD 6053 D46",
+    "startRight": "HD 6053 D49",
+    "endRight": "HD 6331 M2253"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 82,
+    "startLeft": "HD 6331 M2265",
+    "endLeft": "HD 6955 W6",
+    "startRight": "HD 6955 W6",
+    "endRight": "HD 7288.7 A78"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 83,
+    "startLeft": "HD 7288.7 C2",
+    "endLeft": "HD 8072 D38",
+    "startRight": "HD 8072 D84",
+    "endRight": "HD 8431 G613"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 84,
+    "startLeft": "HD 8431 M3813",
+    "endLeft": "HD 9136 T64",
+    "startRight": "HD 9137 A2",
+    "endRight": "HD 9506 M6"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 85,
+    "startLeft": "HD 9506 M62",
+    "endLeft": "HD 9651.5 M33",
+    "startRight": "HD 9651.9 D6",
+    "endRight": "HD 9757 M2"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 86,
+    "startLeft": "HD 9757 N95",
+    "endLeft": "HE 435 G57",
+    "startRight": "HE 435 H3",
+    "endRight": "HE 8697.4 B473"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 87,
+    "startLeft": "HE 8697.4 C43",
+    "endLeft": "HF 1025 H728",
+    "startRight": "HF 1025 H82",
+    "endRight": "HF 1411 S2995"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 88,
+    "startLeft": "HF 1411 S3326",
+    "endLeft": "HF 1495 C37",
+    "startRight": "HF 1495 O5",
+    "endRight": "HF 3023 A2"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 89,
+    "startLeft": "HF 3023 A2",
+    "endLeft": "HF 5387 E8",
+    "startRight": "HF 5387 E8",
+    "endRight": "HF 5415.13 R649"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 90,
+    "startLeft": "HF 5415.13 R649",
+    "endLeft": "HF 5500 A664",
+    "startRight": "HF 5500 A664",
+    "endRight": "HF 5549 E79"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 91,
+    "startLeft": "HF 5549 E82",
+    "endLeft": "HF 5616 S8",
+    "startRight": "HF 5616 U5",
+    "endRight": "HF 5686 B7"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 92,
+    "startLeft": "HF 5686 B8",
+    "endLeft": "HG 63 F55",
+    "startRight": "HG 63 F56",
+    "endRight": "HG 205 M662"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 93,
+    "startLeft": "HG 205 U53",
+    "endLeft": "HG 655 W66",
+    "startRight": "HG 655 Z47",
+    "endRight": "HG 2704 G28"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 94,
+    "startLeft": "HG 2704 G3",
+    "endLeft": "HG 3881.5 I58",
+    "startRight": "HG 3881.5 I58",
+    "endRight": "HG 4523 I583"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 95,
+    "startLeft": "HG 4523 I5836",
+    "endLeft": "HG 5851 A3",
+    "startRight": "HG 5851 A3",
+    "endRight": "HJ 2051 C7"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 96,
+    "startLeft": "HJ 2051 C73",
+    "endLeft": "HM 13 T45",
+    "startRight": "HM 13 U7",
+    "endRight": "HM 51 R68"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 97,
+    "startLeft": "HM 51 R8",
+    "endLeft": "HM 134 S65",
+    "startRight": "HM 134 W47",
+    "endRight": "HM 261 T43"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 98,
+    "startLeft": "HM 278 T638",
+    "endLeft": "HM 291 S39",
+    "startRight": "HM 291 S392",
+    "endRight": "HM 585 R39"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 99,
+    "startLeft": "HM 585 R45",
+    "endLeft": "HM 786 E44",
+    "startRight": "HM 786 E87",
+    "endRight": "HM 1126 L57"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 100,
+    "startLeft": "HM 1126 M395",
+    "endLeft": "HN 18 B515",
+    "startRight": "HN 18 B52",
+    "endRight": "HN 58 H64"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 101,
+    "startLeft": "HN 58 J66",
+    "endLeft": "HN 90 R3",
+    "startRight": "HN 90 R3",
+    "endRight": "HN 110 Z9"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 102,
+    "startLeft": "HN 110 Z9",
+    "endLeft": "HN 385 B47",
+    "startRight": "HN 385 B47",
+    "endRight": "HN 438 F72"
+  },
+  {
+    "floorNumber": 5,
+    "rangeNumber": 103,
+    "startLeft": "HN 438 L23",
+    "endLeft": "HN 703 I5",
+    "startRight": "HN 703 S5",
+    "endRight": "HN 981 V5"
   }
 ]
