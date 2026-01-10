@@ -58,7 +58,7 @@ for %%f in ("%dir%\*") do (
     if /I not "!attrs:~0,1!"=="d" (
         
         rem 2. Skip specific filenames (package-lock.json, etc.)
-        if /I not "!fname!"=="package-lock.json" if /I not "!fname!"=="yarn.lock" if /I not "!fname!"=="ranges.json" (
+        if /I not "!fname!"=="package-lock.json" if /I not "!fname!"=="yarn.lock" (
             
             rem 3. Skip specific extensions (binaries, images, etc.)
             if /I not "%%~xf"==".exe" if /I not "%%~xf"==".pdf" if /I not "%%~xf"==".o" if /I not "%%~xf"==".png" if /I not "%%~xf"==".ico" if /I not "%%~xf"==".bat" if /I not "%%~xf"==".sh" if /I not "%%~xf"==".sqlite3" (
