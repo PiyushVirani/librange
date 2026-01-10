@@ -126,16 +126,16 @@ export default function ResultPanel({ search, parsed, match, section }: ResultPa
             <div className="v">Floor {match.floorNumber}</div>
           </div>
           <div className="kv">
+            <div className="k">Section</div>
+            <div className="v">{section?.name ?? "Unknown section"}</div>
+          </div>
+          <div className="kv">
             <div className="k">Range #</div>
             <div className="v">{match.rangeNumber}</div>
           </div>
           <div className="kv">
             <div className="k">Side</div>
             <div className="v">{formatSide(match.side)}</div>
-          </div>
-          <div className="kv">
-            <div className="k">Section</div>
-            <div className="v">{section?.name ?? "Unknown section"}</div>
           </div>
         </div>
 
