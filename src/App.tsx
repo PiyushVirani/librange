@@ -1,23 +1,30 @@
-import { useState } from 'react';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
 
-import rangesData from './data/ranges.json';
-import CallNumberForm from './components/CallNumberForm';
-import ResultPanel from './components/ResultPanel';
+import rangesData from "./data/ranges.json";
+import sectionsData from "./data/sections.json";
 
-import { ParsedCallNumber } from './types/ParsedCallNumber';
-import { RangeMatch } from './types/RangeMatch';
-import { RangeRecord } from './types/RangeRecord';
+import CallNumberForm from "./components/CallNumberForm";
+import ResultPanel from "./components/ResultPanel";
 
-import { parseCallNumber } from './lib/parseCallNumber';
-import { findRange } from './lib/findRange';
+import { ParsedCallNumber } from "./types/ParsedCallNumber";
+import { RangeMatch } from "./types/RangeMatch";
+import { RangeRecord } from "./types/RangeRecord";
+import { SectionMatch } from "./types/SectionMatch";
+import { SectionRecord } from "./types/SectionRecord";
+
+import { parseCallNumber } from "./lib/parseCallNumber";
+import { findRange } from "./lib/findRange";
+import { findSection } from "./lib/findSection";
 
 const ranges = rangesData as RangeRecord[];
+const sections = sectionsData as SectionRecord[];
 
 function App() {
-  const [currentSearch, setCurrentSearch] = useState('');
+  const [currentSearch, setCurrentSearch] = useState("");
   const [parsedData, setParsedData] = useState<ParsedCallNumber | null>(null);
   const [matchResult, setMatchResult] = useState<RangeMatch | null>(null);
+  const [sectionResult, setSectionResult] = useState<SectionMatch | null>(null);
 
   const handleSearch = (term: string) => {
     const normalized = term.trim();
@@ -28,6 +35,7 @@ function App() {
     if (!normalized) {
       setParsedData(null);
       setMatchResult(null);
+      setSectionResult(null);
       return;
     }
 
@@ -39,8 +47,12 @@ function App() {
     if (parsed) {
       const match = findRange(parsed, ranges);
       setMatchResult(match);
+
+      const s = findSection(parsed, sections);
+      setSectionResult(s);
     } else {
       setMatchResult(null);
+      setSectionResult(null);
     }
   };
 
@@ -64,7 +76,12 @@ function App() {
             <CallNumberForm onSubmit={handleSearch} />
           </div>
 
-          <ResultPanel search={currentSearch} parsed={parsedData} match={matchResult} />
+          <ResultPanel
+            search={currentSearch}
+            parsed={parsedData}
+            match={matchResult}
+            section={sectionResult}
+          />
         </div>
       </div>
     </div>

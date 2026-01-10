@@ -1,10 +1,12 @@
 import { ParsedCallNumber } from "../types/ParsedCallNumber";
 import { RangeMatch } from "../types/RangeMatch";
+import { SectionMatch } from "../types/SectionMatch";
 
 interface ResultPanelProps {
   search: string;
   parsed: ParsedCallNumber | null;
   match: RangeMatch | null;
+  section: SectionMatch | null;
 }
 
 function formatParsed(parsed: ParsedCallNumber): string {
@@ -14,7 +16,11 @@ function formatParsed(parsed: ParsedCallNumber): string {
   return `${parsed.classLetters} ${number}${cutter}${year}`.trim();
 }
 
-export default function ResultPanel({ search, parsed, match }: ResultPanelProps) {
+function formatSide(side: "left" | "right"): string {
+  return side === "left" ? "Left side" : "Right side";
+}
+
+export default function ResultPanel({ search, parsed, match, section }: ResultPanelProps) {
   // 1) Idle
   if (!search) {
     return (
@@ -68,7 +74,7 @@ export default function ResultPanel({ search, parsed, match }: ResultPanelProps)
     );
   }
 
-  // 3) Parsed OK, but no match
+  // 3) Parsed OK, but no physical range match
   if (!match) {
     return (
       <section className="card resultCard--error" aria-live="polite">
@@ -76,12 +82,12 @@ export default function ResultPanel({ search, parsed, match }: ResultPanelProps)
           <h2 className="resultTitle">Result</h2>
           <span className="badge badge--error">
             <span className="badgeDot" aria-hidden="true" />
-            Invalid Range
+            No match
           </span>
         </div>
 
         <div className="resultBody">
-          <p className="note">No item with this call number was found in the current ranges dataset.</p>
+          <p className="note">No physical range matched this call number in the current ranges dataset.</p>
 
           <div className="kvGrid">
             <div className="kv">
@@ -89,8 +95,8 @@ export default function ResultPanel({ search, parsed, match }: ResultPanelProps)
               <div className="v">{formatParsed(parsed)}</div>
             </div>
             <div className="kv">
-              <div className="k">Status</div>
-              <div className="v">Invalid Range</div>
+              <div className="k">Section (if known)</div>
+              <div className="v">{section?.name ?? "Unknown section"}</div>
             </div>
           </div>
 
@@ -123,9 +129,13 @@ export default function ResultPanel({ search, parsed, match }: ResultPanelProps)
             <div className="k">Range #</div>
             <div className="v">{match.rangeNumber}</div>
           </div>
-          <div className="kv kv--span2">
+          <div className="kv">
+            <div className="k">Side</div>
+            <div className="v">{formatSide(match.side)}</div>
+          </div>
+          <div className="kv">
             <div className="k">Section</div>
-            <div className="v">{match.section}</div>
+            <div className="v">{section?.name ?? "Unknown section"}</div>
           </div>
         </div>
 

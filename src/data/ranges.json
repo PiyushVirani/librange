@@ -1,156 +1,1274 @@
 [
   {
-    "start": "AC 1 H37",
-    "end": "B 128 C8",
-    "floorNumber": 5,
+    "floorNumber": 1,
     "rangeNumber": 1,
-    "section": "Collections - Philosophy"
+    "startLeft": "PS 221 P3",
+    "endLeft": "PS 374 O94",
+    "startRight": "PS 7 A8",
+    "endRight": "PS 221 N92"
   },
   {
-    "start": "B 128 C8",
-    "end": "B 780 M3",
-    "floorNumber": 5,
+    "floorNumber": 1,
     "rangeNumber": 2,
-    "section": "Philosophy (B)"
+    "startLeft": "PS 648 U85",
+    "endLeft": "PS 1733 A48",
+    "startRight": "PS 374 P43",
+    "endRight": "PS 648 S5"
   },
   {
-    "start": "B 780 M3",
-    "end": "B 945 D43",
-    "floorNumber": 5,
+    "floorNumber": 1,
     "rangeNumber": 3,
-    "section": "Philosophy (B)"
+    "startLeft": "PS 2382 1984",
+    "endLeft": "PS 3501 I5",
+    "startRight": "PS 1744 G57",
+    "endRight": "PS 2380 F68"
   },
   {
-    "start": "B 945 D43",
-    "end": "B 2220 1969",
-    "floorNumber": 5,
+    "floorNumber": 1,
     "rangeNumber": 4,
-    "section": "Philosophy (B)"
+    "startLeft": "PS 3507 U629",
+    "endLeft": "PS 3515 E628",
+    "startRight": "PS 3501 L373",
+    "endRight": "PS 3507 U6228"
   },
   {
-    "start": "B 2220 1969",
-    "end": "B 3209 B76",
-    "floorNumber": 5,
+    "floorNumber": 1,
     "rangeNumber": 5,
-    "section": "Philosophy (B)"
+    "startLeft": "PS 3525 I495",
+    "endLeft": "PS 3531 R78",
+    "startRight": "PS 3515 E7715",
+    "endRight": "PS 3525 I486"
   },
   {
-    "start": "B 3209 B76",
-    "end": "B 5134 A4",
-    "floorNumber": 5,
+    "floorNumber": 1,
     "rangeNumber": 6,
-    "section": "Philosophy (B)"
+    "startLeft": "PS 3545 H117",
+    "endLeft": "PS 3554 E4425",
+    "startRight": "PS 3531 U426",
+    "endRight": "PS 3545 E8334"
   },
   {
-    "start": "B 5134 K75",
-    "end": "BD 241 H36",
-    "floorNumber": 5,
+    "floorNumber": 1,
     "rangeNumber": 7,
-    "section": "Philosophy - Speculative Philosophy"
+    "startLeft": "PS 3566 E6913",
+    "endLeft": "PS 8074 A7",
+    "startRight": "PS 3554 E4425",
+    "endRight": "PS 3566 E69125"
   },
   {
-    "start": "BD 241 H365",
-    "end": "BF 109 F74",
-    "floorNumber": 5,
+    "floorNumber": 1,
     "rangeNumber": 8,
-    "section": "Speculative Philosophy - Psychology"
+    "startLeft": "PS 8241 E5",
+    "endLeft": "PS 8429.5 T5",
+    "startRight": "PS 8074 B3",
+    "endRight": "PS 8238 Q45"
   },
   {
-    "start": "BF 109 F74",
-    "end": "BF 311 E585",
-    "floorNumber": 5,
+    "floorNumber": 1,
     "rangeNumber": 9,
-    "section": "Psychology (BF)"
+    "startLeft": "PS 8487 F4",
+    "endLeft": "PS 8506 A34",
+    "startRight": "PS 8430 B3",
+    "endRight": "PS 8487 E9"
   },
   {
-    "start": "BF 311 E5913",
-    "end": "BF 469 S69",
-    "floorNumber": 5,
+    "floorNumber": 1,
     "rangeNumber": 10,
-    "section": "Psychology (BF)"
+    "startLeft": "PS 8515 O4",
+    "endLeft": "PS 8526 A357",
+    "startRight": "PS 8506 A34",
+    "endRight": "PS 8515 I54"
   },
   {
-    "start": "BF 469 V57",
-    "end": "BF 683 P48",
-    "floorNumber": 5,
+    "floorNumber": 1,
     "rangeNumber": 11,
-    "section": "Psychology (BF)"
+    "startLeft": "PS 8540 H47",
+    "endLeft": "PS 8557 E86",
+    "startRight": "PS 8526 A36",
+    "endRight": "PS 8540 H47"
   },
   {
-    "start": "BF 683 P48",
-    "end": "BF 723 I6",
-    "floorNumber": 5,
+    "floorNumber": 1,
     "rangeNumber": 12,
-    "section": "Psychology (BF)"
+    "startLeft": "PS 8575 D6",
+    "endLeft": "PS 8593 I36",
+    "startRight": "PS 8557 E8775",
+    "endRight": "PS 8575 D54"
   },
   {
-    "start": "HQ 7 F34",
-    "end": "HQ 76.3 U5",
+    "floorNumber": 1,
+    "rangeNumber": 13,
+    "startLeft": "PT 2603 E2155",
+    "endLeft": "PT 2621 A26",
+    "startRight": "PS 8593 I37",
+    "endRight": "PT 2603 A79"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 14,
+    "startLeft": "PT 2635 I65",
+    "endLeft": "PT 9812 F82",
+    "startRight": "PT 2621 A26",
+    "endRight": "PT 2635 I65"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 15,
+    "startLeft": "Q 175.37 F75",
+    "endLeft": "QA 29 Z37",
+    "startRight": "PT 9813 G5",
+    "endRight": "Q 175.35 S346"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 16,
+    "startLeft": "QA 76.64 L32",
+    "endLeft": "QA 76.73 J38",
+    "startRight": "QA 31 A95",
+    "endRight": "QA 76.64 K86"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 17,
+    "startLeft": "QA 76.76 Q35",
+    "endLeft": "QA 76.9 G37",
+    "startRight": "QA 76.73 J39",
+    "endRight": "QA 76.76 P37"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 18,
+    "startLeft": "QA 179 K6413",
+    "endLeft": "QA 267 D8",
+    "startRight": "QA 76.9 H36",
+    "endRight": "QA 179 I58"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 19,
+    "startLeft": "QA 276 H24",
+    "endLeft": "QA 295 K84",
+    "startRight": "QA 267 F64",
+    "endRight": "QA 276 H22"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 20,
+    "startLeft": "QA 371 F53",
+    "endLeft": "QA 433 L67",
+    "startRight": "QA 295 L64",
+    "endRight": "QA 371 E3"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 21,
+    "startLeft": "QA 927 T65",
+    "endLeft": "QC 16 F4",
+    "startRight": "QA 433 M325",
+    "endRight": "QA 927 S8"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 22,
+    "startLeft": "QC 173 C724",
+    "endLeft": "QC 175 E353",
+    "startRight": "QC 16 F49",
+    "endRight": "QC 173 C647"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 23,
+    "startLeft": "QC 373 S7",
+    "endLeft": "QC 665 E38",
+    "startRight": "QC 175 E9",
+    "endRight": "QC 373 S3"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 24,
+    "startLeft": "QC 793 H57",
+    "endLeft": "QC 903 S587",
+    "startRight": "QC 665 E4",
+    "endRight": "QC 793 C64"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 25,
+    "startLeft": "QD 31 H236",
+    "endLeft": "QD 96 I47",
+    "startRight": "QC 903 S588",
+    "endRight": "QD 31 G817"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 26,
+    "startLeft": "QD 253 H5",
+    "endLeft": "QD 381.9 P56",
+    "startRight": "QD 96 I5",
+    "endRight": "QD 253 H3"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 27,
+    "startLeft": "QD 461 T34",
+    "endLeft": "QD 553 B74",
+    "startRight": "QD 381.9 R3",
+    "endRight": "QD 461 S92"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 28,
+    "startLeft": "QE 28 D96",
+    "endLeft": "QE 473 T4",
+    "startRight": "QD 553 C92",
+    "endRight": "QE 26.3 S67"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 29,
+    "startLeft": "QE 565 D2",
+    "endLeft": "QE 757 A1",
+    "startRight": "QE 475 A2",
+    "endRight": "QE 541 T72"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 30,
+    "startLeft": "QH 87.3 L49",
+    "endLeft": "QH 353 E53",
+    "startRight": "QE 758 L3",
+    "endRight": "QH 87.3 H36"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 31,
+    "startLeft": "QH 485 B53",
+    "endLeft": "QH 545 M86",
+    "startRight": "QH 353 H35",
+    "endRight": "QH 485 A83"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 32,
+    "startLeft": "QK 480 C32",
+    "endLeft": "QK 898 N6",
+    "startRight": "QH 545 N3",
+    "endRight": "QK 477.2 I4"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 33,
+    "startLeft": "QL 581 A43",
+    "endLeft": "QL 737 L32",
+    "startRight": "QK 898 P67",
+    "endRight": "QL 573 R745"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 34,
+    "startLeft": "QP 86 P29",
+    "endLeft": "QP 376 P868",
+    "startRight": "QL 737 M3",
+    "endRight": "QP 86 M84"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 35,
+    "startLeft": "QP 572 S7",
+    "endLeft": "R 119.9 W56",
+    "startRight": "QP 376 R44",
+    "endRight": "QP 572 S6"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 36,
+    "startLeft": "R 857 O6",
+    "endLeft": "RA 441 S43",
+    "startRight": "R 119.95 D54",
+    "endRight": "R 857 O6"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 37,
+    "startLeft": "RA 770 I44",
+    "endLeft": "RC 78.7 D35",
+    "startRight": "RA 441 S56",
+    "endRight": "RA 770 I42"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 38,
+    "startLeft": "RC 450 G72",
+    "endLeft": "RC 480.54 M35",
+    "startRight": "RC 78.7 D53",
+    "endRight": "RC 450 G7"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 39,
+    "startLeft": "RC 537 H337",
+    "endLeft": "RC 569.5 V55",
+    "startRight": "RC 480.55 B75",
+    "endRight": "RC 537 G722"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 40,
+    "startLeft": "RJ 496 C4",
+    "endLeft": "RT 85 C48",
+    "startRight": "RC 569.5 V55",
+    "endRight": "RJ 496 B7"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 41,
+    "startLeft": "SB 191 O2",
+    "endLeft": "SF 257 H43",
+    "startRight": "RT 86 B8",
+    "endRight": "SB 191 M2"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 42,
+    "startLeft": "T 55 H45",
+    "endLeft": "T 385 G583",
+    "startRight": "SF 271 C54",
+    "endRight": "T 55 H273"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 43,
+    "startLeft": "TA 347 F5",
+    "endLeft": "TA 405 P677",
+    "startRight": "T 385 G584",
+    "endRight": "TA 347 D5"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 44,
+    "startLeft": "TA 645 C34",
+    "endLeft": "TA 1145 R45",
+    "startRight": "TA 405 P678",
+    "endRight": "TA 645 B87"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 45,
+    "startLeft": "TD 193.5 W54",
+    "endLeft": "TD 758.5 N87",
+    "startRight": "TA 1145 S24",
+    "endRight": "TD 193.4 O35"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 46,
+    "startLeft": "TE 203 U5",
+    "endLeft": "TH 6025 B74",
+    "startRight": "TD 760 C75",
+    "endRight": "TE 203 S474"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 47,
+    "startLeft": "TJ 825 W593",
+    "endLeft": "TK 5102.5 V36",
+    "startRight": "TH 6025 I57",
+    "endRight": "TJ 825 W592"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 48,
+    "startLeft": "TK 5105.5 T36",
+    "endLeft": "TK 7867 S539",
+    "startRight": "TK 5102.5 W35",
+    "endRight": "TK 5105.5 S83"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 49,
+    "startLeft": "TK 7876 S666",
+    "endLeft": "TL 681 C6",
+    "startRight": "TK 7867 S54",
+    "endRight": "TK 7876 S66"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 50,
+    "startLeft": "TN 291.5 B84",
+    "endLeft": "TP 248.6 R466",
+    "startRight": "TL 682 C87",
+    "endRight": "TN 291 S54"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 51,
+    "startLeft": "TR 647 R284",
+    "endLeft": "TS 160 S86",
+    "startRight": "TP 248.65 A57",
+    "endRight": "TR 647 P73"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 52,
+    "startLeft": "TX 360 U6",
+    "endLeft": "U 53 T38",
+    "startRight": "TS 161 A38",
+    "endRight": "TX 360 T75"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 53,
+    "startLeft": "UA 21 H39",
+    "endLeft": "UA 646.55 S62",
+    "startRight": "U 54 C2",
+    "endRight": "UA 18 U5"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 54,
+    "startLeft": "UA 856 B75",
+    "endLeft": "UG 473 G7",
+    "startRight": "UA 646.7 A97",
+    "endRight": "UA 855.7 T48"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 55,
+    "startLeft": "Z 124 L66",
+    "endLeft": "ZA 5110 G37",
+    "startRight": "UG 475 B87",
+    "endRight": "Z 124 J64"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 60,
+    "startLeft": "AE 2 L363",
+    "endLeft": "DS",
+    "startRight": null,
+    "endRight": null
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 61,
+    "startLeft": null,
+    "endLeft": null,
+    "startRight": "DS 135 E8",
+    "endRight": "GR"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 62,
+    "startLeft": "GR 350 A35",
+    "endLeft": "M",
+    "startRight": null,
+    "endRight": null
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 63,
+    "startLeft": null,
+    "endLeft": null,
+    "startRight": "M 1037.4 G8",
+    "endRight": "NA"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 64,
+    "startLeft": "NA 2950 B82",
+    "endLeft": "PT",
+    "startRight": null,
+    "endRight": null
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 65,
+    "startLeft": null,
+    "endLeft": null,
+    "startRight": "PG 3343 S52",
+    "endRight": "Z"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 69,
+    "startLeft": null,
+    "endLeft": null,
+    "startRight": "A",
+    "endRight": "Z"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 70,
+    "startLeft": "AI 3 A72",
+    "endLeft": "AP 2 N6763",
+    "startRight": "AP 2 N6763",
+    "endRight": "AP 4 B6"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 71,
+    "startLeft": "AP 4 B6",
+    "endLeft": "AP 4 N6",
+    "startRight": "AP 4 N6",
+    "endRight": "AP 4 S7"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 72,
+    "startLeft": "AP 4 S7",
+    "endLeft": "AP 5 M23",
+    "startRight": "AP 5 Q54",
+    "endRight": "AP 20 N852"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 73,
+    "startLeft": "AP 20 R312",
+    "endLeft": "AS 122 L5",
+    "startRight": "AS 122 W6532",
+    "endRight": "BF 683 N4"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 74,
+    "startLeft": "BF 683 N4",
+    "endLeft": "BX 1419 H5",
+    "startRight": "BX 1492 A1",
+    "endRight": "D 111 M5"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 75,
+    "startLeft": "D 111 M9",
+    "endLeft": "DB 901 H8",
+    "startRight": "DB 901 N4762",
+    "endRight": "DK 508 A2"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 76,
+    "startLeft": "DK 508 A2",
+    "endLeft": "E 51 U5",
+    "startRight": "E 75 C35",
+    "endRight": "FC 1 C272"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 77,
+    "startLeft": "FC 1 C357",
+    "endLeft": "FC 3951 B4",
+    "startRight": "FC 3951 B42",
+    "endRight": "H 1 P8"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 78,
+    "startLeft": "H 1 S53",
+    "endLeft": "HE 1 A48",
+    "startRight": "HE 1 T68",
+    "endRight": "HF 5001 F7"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 79,
+    "startLeft": "HF 5001 F7",
+    "endLeft": "HF 5415.12 C3",
+    "startRight": "HF 5415.13 P43",
+    "endRight": "HF 5686 C8"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 80,
+    "startLeft": "HF 5801 A276",
+    "endLeft": "HG 2708 R6",
+    "startRight": "HG 2708 T6",
+    "endRight": "HQ 1101 C352"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 81,
+    "startLeft": "HQ 1101 C352",
+    "endLeft": "JV 6001 I541",
+    "startRight": "JX 1 F6",
+    "endRight": "JX 1901 P39"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 82,
+    "startLeft": "JX 1901 P39",
+    "endLeft": "KD 129 G7",
+    "startRight": "KD 129 G7",
+    "endRight": "KD 296 C82"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 83,
+    "startLeft": "KD 296 C84",
+    "endLeft": "KE 89 A3",
+    "startRight": "KE 89 A3",
+    "endRight": "KE 429 L38"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 84,
+    "startLeft": "KE 432 A66",
+    "endLeft": "KE 3206 A45",
+    "startRight": "KE 3206 A45",
+    "endRight": "KE 8805.8 C35"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 85,
+    "startLeft": "KE 8805.8 C7",
+    "endLeft": "KEO 63 S7",
+    "startRight": "KEO 63 S7",
+    "endRight": "KEP 40 A3"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 86,
+    "startLeft": "KEP 40 A3",
+    "endLeft": "KF 3775 A73",
+    "startRight": "KF 4651 G53",
+    "endRight": "LC 3951 J6"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 87,
+    "startLeft": "LC 3951 J6",
+    "endLeft": "N 1 A6",
+    "startRight": "N 1 A6",
+    "endRight": "N 4 D6"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 88,
+    "startLeft": "N 4 D6",
+    "endLeft": "NA 1 A326",
+    "startRight": "NA 1 A3264",
+    "endRight": "NA 1 C29"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 89,
+    "startLeft": "NA 1 C29",
+    "endLeft": "NA 6 A785",
+    "startRight": "NA 6 A785",
+    "endRight": "NA 9000 U7322"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 90,
+    "startLeft": "NA 9000 U7322",
+    "endLeft": "NK 1700 O362",
+    "startRight": "NX 1 A14",
+    "endRight": "PA 1 P48"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 91,
+    "startLeft": "PA 1 P68",
+    "endLeft": "PC 2065 F7",
+    "startRight": "PC 2620 R5",
+    "endRight": "PN 171 P75"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 92,
+    "startLeft": "PN 241 A1",
+    "endLeft": "PN 1993 A617",
+    "startRight": "PN 1993 A617",
+    "endRight": "PN 2305 Q4"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 93,
+    "startLeft": "PN 2305 Q4",
+    "endLeft": "PN 6120 A1",
+    "startRight": "PN 6120 A1",
+    "endRight": "PQ 2105 A2"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 94,
+    "startLeft": "PQ 2105 A2",
+    "endLeft": "PR 1 V585",
+    "startRight": "PR 1 Y38",
+    "endRight": "PR 8700 E5"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 95,
+    "startLeft": "PR 8700 E5",
+    "endLeft": "PS 8001 C36",
+    "startRight": "PS 8001 C365",
+    "endRight": "PS 8251 G7"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 96,
+    "startLeft": "PS 8251 G7",
+    "endLeft": "QA 273 A1",
+    "startRight": "QA 273 A1",
+    "endRight": "QC 1 A74"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 97,
+    "startLeft": "QC 1 A74",
+    "endLeft": "QC 1 P43",
+    "startRight": "QC 1 P43",
+    "endRight": "QC 1 Z472"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 98,
+    "startLeft": "QC 1 Z472",
+    "endLeft": "QC 770 I4955",
+    "startRight": "QC 770 M64",
+    "endRight": "QC 851 W42"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 99,
+    "startLeft": "QC 851 W67",
+    "endLeft": "QD 1 C57",
+    "startRight": "QD 1 C57",
+    "endRight": "QD 1 J94"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 100,
+    "startLeft": "QD 1 J94",
+    "endLeft": "QD 400 A18",
+    "startRight": "QD 400 A18",
+    "endRight": "QE 71 G48"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 101,
+    "startLeft": "QE 71 G48",
+    "endLeft": "QH 1 N132",
+    "startRight": "QH 1 N52",
+    "endRight": "QH 573 C82"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 102,
+    "startLeft": "QH 573 I56",
+    "endLeft": "QL 461 B85",
+    "startRight": "QL 461 B85",
+    "endRight": "RC 321 J83"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 103,
+    "startLeft": "RC 321 J83",
+    "endLeft": "TA 4 J28",
+    "startRight": "TA 401 S52",
+    "endRight": "TK 1 Q2"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 104,
+    "startLeft": "TK 1 Q2",
+    "endLeft": "TS 149 F6",
+    "startRight": "TS 149 F6",
+    "endRight": "Z 671 L7"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 105,
+    "startLeft": "Z 671 L7",
+    "endLeft": "Z 2000 I482",
+    "startRight": null,
+    "endRight": null
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 107,
+    "startLeft": "CA1 IA41 N51",
+    "endLeft": "BO1 AG40 70",
+    "startRight": "BO1 AG40 74",
+    "endRight": "CA BS11 C003"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 108,
+    "startLeft": "CA1 BSC 1976",
+    "endLeft": "CA1 CP A55",
+    "startRight": "CA1 BS11 C003",
+    "endRight": "CA1 BSC 1976"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 109,
+    "startLeft": "CA1 E481 94P13",
+    "endLeft": "CA1 FN E16",
+    "startRight": "CA1 CP A55",
+    "endRight": "CA1 EA81 94P11"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 110,
+    "startLeft": "CA1 PR85 81R16",
+    "endLeft": "CA1 IA78 75P14",
+    "startRight": "CA1 FN E16",
+    "endRight": "CA1 FR85 79R15"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 111,
+    "startLeft": "CA1 L58 W54",
+    "endLeft": "CA1 ND 2011",
+    "startRight": "CA1 IA78 79",
+    "endRight": "CA1 L58 W54"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 112,
+    "startLeft": "CA1 RT P26",
+    "endLeft": "CA1 T130 A56",
+    "startRight": "CA1 ND 2011",
+    "endRight": "CA1 RT P26"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 113,
+    "startLeft": "CA1 X1 D23",
+    "endLeft": "CA1 X1 D23",
+    "startRight": "CA1 T130 A56",
+    "endRight": "CA1 X1 D23"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 114,
+    "startLeft": "CA1 XC12 A48",
+    "endLeft": "CA1 XC61 2005",
+    "startRight": "CA1 X1 D23",
+    "endRight": "CA1 XC12 A48"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 115,
+    "startLeft": "CA1 YC2 69",
+    "endLeft": "CA1 Z1 Z2",
+    "startRight": "CA1 XC61 2008",
+    "endRight": "CA1 YC2 69"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 116,
+    "startLeft": "CA1 Z1 91A51",
+    "endLeft": "CA2 AL X1 A43",
+    "startRight": "CA1 Z1 Z2L21",
+    "endRight": "CA1 Z1 91A51"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 117,
+    "startLeft": "CA2 MA Z1",
+    "endLeft": "CA2 NV F",
+    "startRight": "CA2 AL X1",
+    "endRight": "CA2 MA Z1"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 118,
+    "startLeft": "CA2 ON DE800",
+    "endLeft": "CA2 ON IT20",
+    "startRight": "CA2 NV F",
+    "endRight": "CA2 ON DE800"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 119,
+    "startLeft": "CA2 ON PS31",
+    "endLeft": "CA2 ON WM",
+    "startRight": "CA2 ON IT20",
+    "endRight": "CA2 ON PS31"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 120,
+    "startLeft": "CA2 ON XB",
+    "endLeft": "CA2 PE ED",
+    "startRight": "CA2 ON WM",
+    "endRight": "CA2 ON XB"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 121,
+    "startLeft": "CA2 PQ J721",
+    "endLeft": "CA2 PQ X1",
+    "startRight": "CA2 PE ED",
+    "endRight": "CA2 PQ J710"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 122,
+    "startLeft": "CA2 SA H10",
+    "endLeft": "CA4 ON TOR",
+    "startRight": "CA2 PQ XC19",
+    "endRight": "CA2 PQ Z2"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 123,
+    "startLeft": "EG1 CB A56",
+    "endLeft": "GD1 L S59",
+    "startRight": "CA4 ON TOR",
+    "endRight": "EG1 CB A56"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 124,
+    "startLeft": "GD1 L S59",
+    "endLeft": "ID1 ES E71",
+    "startRight": "KE1 H A56",
+    "endRight": "ID1 ES E71"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 125,
+    "startLeft": "KE1 HO A56",
+    "endLeft": "MZ1 IN A33",
+    "startRight": "NP1 RB Q72",
+    "endRight": "MZ1 IN A33"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 126,
+    "startLeft": "RU1 YX89 S59",
+    "endLeft": "SW1 NP51",
+    "startRight": "NR6 ESA 70S71",
+    "endRight": "RU1 YX89 S59"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 127,
+    "startLeft": "UD1 ST N14",
+    "endLeft": "UK1 FO 47D51",
+    "startRight": "SW1 L 84S83",
+    "endRight": "UD1 ST N14"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 128,
+    "startLeft": "UK1 PR65 S701",
+    "endLeft": "UK1 X1 P12",
+    "startRight": "UK1 FO 47D51",
+    "endRight": "UK1 PR60 S711"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 129,
+    "startLeft": "UK1 X1 P12",
+    "endLeft": "UK1 Y1 P12",
+    "startRight": "UK1 X1 P12",
+    "endRight": "UK1 X1 P12"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 130,
+    "startLeft": "UK9 KE X1",
+    "endLeft": "UK9 UB PD",
+    "startRight": "UK1 Y1 P12",
+    "endRight": "UK9 KE X1"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 131,
+    "startLeft": "UN2 A 48S97",
+    "endLeft": "UN2 HS 94B17",
+    "startRight": "UK9 ZN CS",
+    "endRight": "UN2 A 48B16"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 132,
+    "startLeft": "UN5 E30 200",
+    "endLeft": "UN5 EE5 E26",
+    "startRight": "UN2 HS 94C56",
+    "endRight": "UN2 TR15 73R15"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 133,
+    "startLeft": "UN9 ES U52",
+    "endLeft": "UN9 ID 83E22",
+    "startRight": "UN5 EE5 E26",
+    "endRight": "UN9 ES U52"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 134,
+    "startLeft": "UN9 MF B16",
+    "endLeft": "UN9 MG 2005",
+    "startRight": "UN9 ID 83F36",
+    "endRight": "UN9 MF B16"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 135,
+    "startLeft": "UN9 MG428 91F32",
+    "endLeft": "UN9 WTO 2005",
+    "startRight": "UN9 MG 2005",
+    "endRight": "UN9 MG427 98L27"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 136,
+    "startLeft": "DP CP SAM",
+    "endLeft": "UN ST CTC",
+    "startRight": "UN9 WTO 2006",
+    "endRight": "DP CP MAG"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 137,
+    "startLeft": "UNCTAD ECDC TA",
+    "endLeft": "US1 AT 90A17",
+    "startRight": "ST ECA 4",
+    "endRight": "UNCTAD ECDC PA"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 138,
+    "startLeft": "US1 DD40 A52",
+    "endLeft": "US1 EY40 I52",
+    "startRight": "US1 AT 90A65",
+    "endRight": "US1 DD40 A52"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 139,
+    "startLeft": "US1 S F55",
+    "endLeft": "US1 SA64 57E25",
+    "startRight": "US1 DD120 F990",
+    "endRight": "US1 S F55"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 140,
+    "startLeft": "ZM1 CS A31",
+    "endLeft": "ZZ APO 93D23",
+    "startRight": "US5 SA66 69E58",
+    "endRight": "ZM1 COO A56"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 141,
+    "startLeft": "ZZ CE350 S79",
+    "endLeft": "ZZ ECA A58",
+    "startRight": "ZZ APO 93E52",
+    "endRight": "ZZ CE350 2000"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 142,
+    "startLeft": "ZZ ECA35 S72",
+    "endLeft": "ZZ ECD100",
+    "startRight": "ZZ ECA A58",
+    "endRight": "ZZ ECA35 S72"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 143,
+    "startLeft": "ZZ EMA191 E72",
+    "endLeft": "ZZ EMS S23",
+    "startRight": "ZZ ECD100 Q75",
+    "endRight": "ZZ EMA191 E72"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 144,
+    "startLeft": "ZZ LN60 46C57",
+    "endLeft": "UK1 QP H51",
+    "startRight": "ZZ EMS S26",
+    "endRight": "ZZ LN60 45L25"
+  },
+  {
+    "floorNumber": 1,
+    "rangeNumber": 145,
+    "startLeft": "UN2 LI8 I67",
+    "endLeft": "ZZ ECD100 W51",
+    "startRight": "UK1 QP H51",
+    "endRight": "UN2 LI8 I67"
+  },
+  {
     "floorNumber": 3,
     "rangeNumber": 1,
-    "section": "Family, Marriage, Women (HQ)"
+    "startLeft": "HQ 7 F34",
+    "endLeft": "HQ 29 T46",
+    "startRight": "HQ 29 T95",
+    "endRight": "HQ 76.3 U5"
   },
   {
-    "start": "HQ 76.3 U5",
-    "end": "HQ 728 W52",
     "floorNumber": 3,
     "rangeNumber": 2,
-    "section": "Family, Marriage, Women (HQ)"
+    "startLeft": "HQ 76.3 U5",
+    "endLeft": "HQ 518 H1538",
+    "startRight": "HQ 518 H35",
+    "endRight": "HQ 728 W52"
   },
   {
-    "start": "HQ 728 W526",
-    "end": "HQ 767.9 G576",
     "floorNumber": 3,
     "rangeNumber": 3,
-    "section": "Family, Marriage, Women (HQ)"
+    "startLeft": "HQ 728 W526",
+    "endLeft": "HQ 759.5 R34",
+    "startRight": "HQ 759.5 S53",
+    "endRight": "HQ 767.9 G576"
   },
   {
-    "start": "HQ 767.9 G75",
-    "end": "HQ 809.3 U5",
     "floorNumber": 3,
     "rangeNumber": 4,
-    "section": "Family, Marriage, Women (HQ)"
+    "startLeft": "HQ 767.9 G75",
+    "endLeft": "HQ 789 M877",
+    "startRight": "HQ 789 N48",
+    "endRight": "HQ 809.3 U5"
   },
   {
-    "start": "HQ 809.3 U5",
-    "end": "HQ 1075.5 I74",
     "floorNumber": 3,
     "rangeNumber": 5,
-    "section": "Family, Marriage, Women (HQ)"
+    "startLeft": "HQ 809.3 U5",
+    "endLeft": "HQ 1064 G7",
+    "startRight": "HQ 1064 G7",
+    "endRight": "HQ 1075.5 I74"
   },
   {
-    "start": "HQ 1075.5 I8",
-    "end": "HQ 1154 M5",
     "floorNumber": 3,
     "rangeNumber": 6,
-    "section": "Family, Marriage, Women (HQ)"
+    "startLeft": "HQ 1075.5 I8",
+    "endLeft": "HQ 1121 D43",
+    "startRight": "HQ 1121 E24",
+    "endRight": "HQ 1154 M5"
   },
   {
-    "start": "HQ 1154 M53",
-    "end": "HQ 1236 W6519",
     "floorNumber": 3,
     "rangeNumber": 7,
-    "section": "Family, Marriage, Women (HQ)"
+    "startLeft": "HQ 1154 M53",
+    "endLeft": "HQ 1190.5 U6",
+    "startRight": "HQ 1191 F7",
+    "endRight": "HQ 1236 W6519"
   },
   {
-    "start": "HQ 1236 W66",
-    "end": "HQ 1439 A94",
     "floorNumber": 3,
     "rangeNumber": 8,
-    "section": "Family, Marriage, Women (HQ)"
+    "startLeft": "HQ 1236 W66",
+    "endLeft": "HQ 1399 V35",
+    "startRight": "HQ 1400 F46",
+    "endRight": "HQ 1439 A94"
   },
   {
-    "start": "HQ 1453 A3",
-    "end": "HQ 1796.5 W63",
     "floorNumber": 3,
     "rangeNumber": 9,
-    "section": "Family, Marriage, Women (HQ)"
+    "startLeft": "HQ 1453 A3",
+    "endLeft": "HQ 1613 F6813",
+    "startRight": "HQ 1613 G53",
+    "endRight": "HQ 1796.5 W63"
   },
   {
-    "start": "HQ 1796.5 Z75",
-    "end": "HT 127 C335",
     "floorNumber": 3,
     "rangeNumber": 10,
-    "section": "Family (HQ) - Communities (HT)"
+    "startLeft": "HQ 1796.5 Z75",
+    "endLeft": "HT 111 C65",
+    "startRight": "HT 111 D37",
+    "endRight": "HT 127 C335"
+  },
+  {
+    "floorNumber": 3,
+    "rangeNumber": 11,
+    "startLeft": "HT 127 C34",
+    "endLeft": "HT 151 S74",
+    "startRight": "HT 151 S78",
+    "endRight": "HT 169 C3"
+  },
+  {
+    "floorNumber": 3,
+    "rangeNumber": 12,
+    "startLeft": "HT 169 C32",
+    "endLeft": "HT 351 C48",
+    "startRight": "HT 351 D48",
+    "endRight": "HT 609 S6215"
+  },
+  {
+    "floorNumber": 3,
+    "rangeNumber": 13,
+    "startLeft": "HT 609 S623",
+    "endLeft": "HT 1162 K6",
+    "startRight": "HT 1162 K69",
+    "endRight": "HV 11 L48"
+  },
+  {
+    "floorNumber": 3,
+    "rangeNumber": 14,
+    "startLeft": "HV 11 M3469",
+    "endLeft": "HV 41 G74",
+    "startRight": "HV 41 G85",
+    "endRight": "HV 104 C35"
+  },
+  {
+    "floorNumber": 3,
+    "rangeNumber": 15,
+    "startLeft": "HV 104 C35",
+    "endLeft": "HV 555 U6",
+    "startRight": "HV 555 U6",
+    "endRight": "HV 741 N397"
+  },
+  {
+    "floorNumber": 3,
+    "rangeNumber": 16,
+    "startLeft": "HV 741 O525",
+    "endLeft": "HV 1451 H63",
+    "startRight": "HV 1451 H84",
+    "endRight": "HV 3004 M57"
+  },
+  {
+    "floorNumber": 3,
+    "rangeNumber": 17,
+    "startLeft": "HV 3004 N35",
+    "endLeft": "HV 4997 Y68",
+    "startRight": "HV 4998 C63",
+    "endRight": "HV 5816 C648"
+  },
+  {
+    "floorNumber": 3,
+    "rangeNumber": 18,
+    "startLeft": "HV 5816 D67",
+    "endLeft": "HV 6030 C72",
+    "startRight": "HV 6030 C72",
+    "endRight": "HV 6250.4 W65"
+  },
+  {
+    "floorNumber": 3,
+    "rangeNumber": 19,
+    "startLeft": "HV 6250.4 W65",
+    "endLeft": "HV 6431 R625",
+    "startRight": "HV 6431 R66",
+    "endRight": "HV 6491 C22"
+  },
+  {
+    "floorNumber": 3,
+    "rangeNumber": 20,
+    "startLeft": "HV 6491 G7",
+    "endLeft": "HV 6570.6 R39",
+    "startRight": "HV 6570.6 T43",
+    "endRight": "HV 6773 B48"
+  },
+  {
+    "floorNumber": 3,
+    "rangeNumber": 21,
+    "startLeft": "HV 6773 C37",
+    "endLeft": "HV 7240 I25",
+    "startRight": "HV 7243 C65",
+    "endRight": "HV 8021 E74"
+  },
+  {
+    "floorNumber": 3,
+    "rangeNumber": 22,
+    "startLeft": "HV 8023 A66",
+    "endLeft": "HV 8964 I73",
+    "startRight": "HV 8964 R8",
+    "endRight": "HV 9950 M57"
   }
 ]

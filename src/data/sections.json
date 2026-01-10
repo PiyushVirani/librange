@@ -1,0 +1,19 @@
+[
+  { "name": "American Literature (PS)", "start": "PS 1", "end": "PS 9999" },
+
+  { "name": "Collections - Philosophy", "start": "AC 1 H37", "end": "B 128 C8" },
+  { "name": "Philosophy (B)", "start": "B 128 C8", "end": "B 5134 A4" },
+  { "name": "Philosophy - Speculative Philosophy", "start": "B 5134 K75", "end": "BD 241 H36" },
+  { "name": "Speculative Philosophy - Psychology", "start": "BD 241 H365", "end": "BF 109 F74" },
+  { "name": "Psychology (BF)", "start": "BF 109 F74", "end": "BF 723 I6" },
+
+  { "name": "Family, Marriage, Women (HQ)", "start": "HQ 7 F34", "end": "HQ 1796.5 Z75" },
+  { "name": "Family (HQ) - Communities (HT)", "start": "HQ 1796.5 Z75", "end": "HT 127 C335" },
+
+  { "name": "General Collections (AC)", "start": "AC 1", "end": "AC 9999" },
+  { "name": "Philosophy & Religion (B)", "start": "B 1", "end": "B 9999" },
+  { "name": "Speculative Philosophy (BD)", "start": "BD 1", "end": "BD 9999" },
+  { "name": "Psychology (BF)", "start": "BF 1", "end": "BF 9999" },
+  { "name": "Family, Marriage, Women (HQ)", "start": "HQ 1", "end": "HQ 9999" },
+  { "name": "Communities (HT)", "start": "HT 1", "end": "HT 9999" }
+]
