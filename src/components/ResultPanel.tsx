@@ -16,10 +16,6 @@ function formatParsed(parsed: ParsedCallNumber): string {
   return `${parsed.classLetters} ${number}${cutter}${year}`.trim();
 }
 
-function formatSide(side: "left" | "right"): string {
-  return side === "left" ? "Left side" : "Right side";
-}
-
 export default function ResultPanel({ search, parsed, match, section }: ResultPanelProps) {
   // 1) Idle
   if (!search) {
@@ -134,8 +130,8 @@ export default function ResultPanel({ search, parsed, match, section }: ResultPa
             <div className="v">{match.rangeNumber}</div>
           </div>
           <div className="kv">
-            <div className="k">Side</div>
-            <div className="v">{formatSide(match.side)}</div>
+            <div className="k">Span</div>
+            <div className="v">{match.spanStart} - {match.spanEnd}</div>
           </div>
         </div>
 

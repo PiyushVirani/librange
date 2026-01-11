@@ -36,6 +36,10 @@ export function findRange(parsed: ParsedCallNumber, ranges: RangeRecord[]): Rang
     const startKey = a <= b ? a : b;
     const endKey = a <= b ? b : a;
 
+    // Keep span labels consistent with the normalized key order
+    const spanStart = a <= b ? startRaw : endRaw;
+    const spanEnd = a <= b ? endRaw : startRaw;
+
     if (searchKey >= startKey && searchKey <= endKey) {
       const isBetter =
         !best ||
@@ -43,7 +47,7 @@ export function findRange(parsed: ParsedCallNumber, ranges: RangeRecord[]): Rang
         (startKey === bestStartKey && endKey < bestEndKey);
 
       if (isBetter) {
-        best = { ...range, side };
+        best = { ...range, side, spanStart, spanEnd };
         bestStartKey = startKey;
         bestEndKey = endKey;
       }
