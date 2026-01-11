@@ -2,7 +2,7 @@
 {
   "name": "librange-folder",
   "private": true,
-   "homepage": "https://PiyushVirani.github.io/librange",
+  "homepage": "https://piyushvirani.github.io/librange/",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
